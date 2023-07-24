@@ -1,8 +1,11 @@
 import Nav from "./components/Nav";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Kodchasan } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const kodchasan = Kodchasan({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -12,9 +15,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-[#0e0e0e]">
-        <Nav />
-        {children}
+      <body className="bg-[#000000]">
+        <main className={kodchasan.className}>
+          <Nav />
+          {children}
+        </main>
       </body>
     </html>
   );

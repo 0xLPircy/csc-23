@@ -5,9 +5,13 @@ import Header from "./containers/Header";
 export default function Home() {
   return (
     <>
-      <Header />
-      <AboutUs />
-      <CyberSec />
+      <div className="pt-12">
+        <Header />
+        <div className="pageSeparator"></div>
+        <AboutUs />
+        <div className="pageSeparator"></div>
+        <CyberSec />
+      </div>
     </>
   );
 }
