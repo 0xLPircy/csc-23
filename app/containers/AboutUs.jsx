@@ -1,16 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import LogoGif from "../../assets/aboutlogo.svg";
+import AboutLogo from "../../assets/aboutlogo.svg";
 
 const AboutUs = () => {
   return (
-    <div className="grid grid-flow-row justify-center items-center text-white">
+    <div className="grid grid-flow-row justify-center items-center text-white ">
       <div className="justify-self-center">
         <h1 className="text-7xl mt-24 mb-28">About Us</h1>
       </div>
       <div className="justify-self-center grid grid-flow-col grid-cols-2 justify-center items-center mb-36">
         <div className="justify-self-center">
-          <Image src={LogoGif} height={240} width={240} />{" "}
+          <Image src={AboutLogo} height={240} width={240} />{" "}
         </div>
         <div className="justify-self-center grid grid-flow-row">
           <h1 className="text-3xl pr-28 pb-6">CYBER SPACE CLUB</h1>

@@ -11,6 +11,7 @@ export default function Home() {
         <AboutUs />
         <div className="pageSeparator"></div>
         <CyberSec />
+        <div className="pageSeparator"></div>
       </div>
     </>
   );
