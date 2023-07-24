@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const CyberSec = () => {
   return (
-    <div className="grid grid-flow-row justify-center items-center text-white mb-20 mx-24">
+    <div className="grid grid-flow-row justify-center items-center text-[#f2f2f2] mb-20 mx-24">
       <h1 className="justify-self-center text-6xl mt-24 mb-12">
         What is Cyber Security
       </h1>
