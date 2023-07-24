@@ -2,19 +2,17 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="about section__padding">
+    <div className="">
       <div>
-        <h1 className="about_title">About Us</h1>
+        <h1 className="">About Us</h1>
       </div>
-      <div className="about__content">
-        <div className="about__content__image">
-          {/* <img src={csc} alt="csc" /> */}
-        </div>
-        <div className="about__content__text">
+      <div className="">
+        <div className="">{/* <img src={csc} alt="csc" /> */}</div>
+        <div className="">
           <div>
-            <h1 className="header-text-orange">CYBER </h1>
-            <h1 className="header-text-white">SPACE</h1>
-            <h1 className="header-text-orange"> CLUB</h1>
+            <h1 className="">CYBER </h1>
+            <h1 className="">SPACE</h1>
+            <h1 className=""> CLUB</h1>
           </div>
           <p>
             {" "}

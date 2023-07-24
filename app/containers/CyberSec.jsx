@@ -2,12 +2,12 @@ import React from "react";
 
 const CyberSec = () => {
   return (
-    <div className="what section__padding">
+    <div className="">
       <div>
-        <h1 className="about_title">What is Cyber Security</h1>
+        <h1 className="">What is Cyber Security</h1>
       </div>
-      <div className="about__content">
-        <div className="about__content__text">
+      <div className="">
+        <div className="">
           <p>
             Technologies, processes, and practices designed to protect networks,
             devices, programs, and data from attack, damage, or unauthorized
@@ -16,9 +16,7 @@ const CyberSec = () => {
             interrupting normal business processes.
           </p>
         </div>
-        <div className="what__content__image">
-          {/* <img src={what} alt="csc" /> */}
-        </div>
+        <div className="">{/* <img src={what} alt="csc" /> */}</div>
       </div>
       <div>
         <h3>Why is Cyber Security Important?</h3>
