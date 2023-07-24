@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import "./globals.css";
 import { Kodchasan } from "next/font/google";
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <main className={kodchasan.className}>
           <Nav />
           {children}
+          <Footer />
         </main>
       </body>
     </html>
