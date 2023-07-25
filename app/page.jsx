@@ -1,6 +1,7 @@
 import AboutUs from "./containers/AboutUs";
 import CyberSec from "./containers/CyberSec";
 import Header from "./containers/Header";
+import InstaPosts from "./containers/InstaPosts";
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
         <AboutUs />
         <div className="pageSeparator"></div>
         <CyberSec />
+        <div className="pageSeparator"></div>
+        <InstaPosts />
         <div className="pageSeparator"></div>
       </div>
     </>

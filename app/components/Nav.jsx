@@ -28,9 +28,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="p-[12px]" key={`membership`}>
-          <Link href="/">
-            Membership
-            <div />
+          <Link
+            legacyBehavior
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc-14BOqnJc69J0BP7zSaLcetjyQ4r05oaAuEbYQQ5aNDOpOg/viewform?usp=sf_link"
+          >
+            <a>Membership</a>
           </Link>
         </li>
         <li className="p-[12px]" key={`newsletter`}>
