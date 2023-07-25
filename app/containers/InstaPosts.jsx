@@ -15,6 +15,8 @@ const InstaPosts = () => {
   return (
     <>
       <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
         cssMode={true}
         navigation={true}
         pagination={true}
@@ -23,7 +25,7 @@ const InstaPosts = () => {
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         className="mySwiper text-white"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide className=" text-green-300">Slide 1</SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
