@@ -31,7 +31,7 @@ const Header = () => {
             </button>
           </a>
           {/* <div class="area"> */}
-          <ul class="circles">
+          {/* <ul class="circles">
             <li></li>
             <li></li>
             <li></li>
@@ -42,7 +42,7 @@ const Header = () => {
             <li></li>
             <li></li>
             <li></li>
-          </ul>
+          </ul> */}
           {/* </div> */}
         </div>
       </div>

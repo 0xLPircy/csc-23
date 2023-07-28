@@ -36,11 +36,11 @@ const Navbar = () => {
             <div />
           </Link>
         </li>
-        <li className="p-[12px]" key={`events`}>
-          <Link href="/">
+        <li className="p-[12px] hover:text-[#454678]" key={`events`}>
+          <a href="https://www.instagram.com">
             Team
             <div />
-          </Link>
+          </a>
         </li>
         <li key={`insta`}>
           <a

@@ -24,11 +24,17 @@ const NewsletterPage = () => {
   };
   return (
     <>
-      <div id="main" className="text-white">
-        <h1>Newsletters</h1>
-        <div className="all">
+      <div
+        id="main"
+        className="text-[#f3f3f3] grid justify-center items-center"
+      >
+        <h1 className="mt-32 justify-self-center">Newsletters</h1>
+        <div className="all grid grid-flow-row grid-cols-3">
           {newsletters.map((newsletter) => (
-            <div key={newsletter.title} className="newsletter-card">
+            <div
+              key={newsletter.title}
+              className="newsletter-card text-[#f3f3f3]"
+            >
               <NewsletterCard
                 title={newsletter.title}
                 date={newsletter.date}
