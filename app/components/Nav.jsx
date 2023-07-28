@@ -27,13 +27,8 @@ const Navbar = () => {
             <div />
           </Link>
         </li>
-        <li className="p-[12px]" key={`membership`}>
-          <Link
-            legacyBehavior
-            href="https://docs.google.com/forms/d/e/1FAIpQLSc-14BOqnJc69J0BP7zSaLcetjyQ4r05oaAuEbYQQ5aNDOpOg/viewform?usp=sf_link"
-          >
-            <a>Membership</a>
-          </Link>
+        <li className="p-[12px] hover:cursor-pointer" key={`membership`}>
+          <a href="https://www.w3schools.com/tags/tag_a.asp">Membership</a>
         </li>
         <li className="p-[12px]" key={`newsletter`}>
           <Link href="/">

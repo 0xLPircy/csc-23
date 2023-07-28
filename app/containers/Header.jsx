@@ -16,7 +16,7 @@ const Header = () => {
           <h1>Manipal University Jaipur</h1>
         </div>
         <div className="grid grid-flow-col items-center justify-around my-6">
-          <a href="#latestevents" rel="noreferrer">
+          <a href="https://www.w3schools.com/tags/tag_a.asp">
             <button className="border-[#fe8d32] rounded-sm border-2 py-3 px-11 text-2xl mx-24">
               Events
             </button>
