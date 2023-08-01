@@ -66,7 +66,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="menu-wrap text-white">
+      <div className="menu-wrap">
         <input type="checkbox" className="toggler" />
         <div className="hamburger">
           <div></div>
@@ -75,51 +75,36 @@ const Navbar = () => {
           <div>
             <div>
               <ul>
-                <li
-                  className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
-                  key={`home`}
-                >
+                <li>
                   <Link href="/">
                     Home
                     <div />
                   </Link>
                 </li>
-                <li
-                  className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
-                  key={`events`}
-                >
+                <li>
                   <Link href="/">
                     Events
                     <div />
                   </Link>
                 </li>
-                <li
-                  className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
-                  key={`membership`}
-                >
+                <li>
                   <a href="https://www.w3schools.com/tags/tag_a.asp">
                     Membership
                   </a>
                 </li>
-                <li
-                  className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
-                  key={`newsletter`}
-                >
+                <li>
                   <Link href="/newsletter">
                     Newsletter
                     <div />
                   </Link>
                 </li>
-                <li
-                  className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
-                  key={`events`}
-                >
+                <li>
                   <a href="/team">
                     Team
                     <div />
                   </a>
                 </li>
-                <li key={`insta`}>
+                <li>
                   <a
                     href="https://www.instagram.com/csc_muj/"
                     target="_blank"
