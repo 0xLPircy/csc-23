@@ -66,8 +66,73 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="">
-        {/* {toggle && (
+      <div className="menu-wrap text-white">
+        <input type="checkbox" className="toggler" />
+        <div className="hamburger">
+          <div></div>
+        </div>
+        <div className="menu">
+          <div>
+            <div>
+              <ul>
+                <li
+                  className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
+                  key={`home`}
+                >
+                  <Link href="/">
+                    Home
+                    <div />
+                  </Link>
+                </li>
+                <li
+                  className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
+                  key={`events`}
+                >
+                  <Link href="/">
+                    Events
+                    <div />
+                  </Link>
+                </li>
+                <li
+                  className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
+                  key={`membership`}
+                >
+                  <a href="https://www.w3schools.com/tags/tag_a.asp">
+                    Membership
+                  </a>
+                </li>
+                <li
+                  className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
+                  key={`newsletter`}
+                >
+                  <Link href="/newsletter">
+                    Newsletter
+                    <div />
+                  </Link>
+                </li>
+                <li
+                  className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
+                  key={`events`}
+                >
+                  <a href="/team">
+                    Team
+                    <div />
+                  </a>
+                </li>
+                <li key={`insta`}>
+                  <a
+                    href="https://www.instagram.com/csc_muj/"
+                    target="_blank"
+                    rel="noreferrer"
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className=""> */}
+      {/* {toggle && (
                     <div>
                         <ul>
                             <li key={`mobile-home`}>
@@ -103,7 +168,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                 )} */}
-      </div>
+      {/* </div> */}
     </nav>
   );
 };
