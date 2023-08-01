@@ -7,37 +7,52 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="flex justify-center items-center fixed py-3 border-b-[1px] border-[#f9672d3c] text-white w-full">
-      <div className="">
+    <nav className="flex items-center fixed juustify-center py-3 border-b-[1px] border-[#f9672d3c] text-white w-full">
+      <div className="self-start">
         <Link href="/">
           {/* <img src={ } alt="logo" /> */}
           <Image width={210} height={210} src="./nav_logo.svg" />
         </Link>
       </div>
-      <ul className="flex justify-center items-center">
-        <li className="p-[12px]" key={`home`}>
+      <ul className="justify-items-end flex justify-center items-center">
+        <li
+          className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
+          key={`home`}
+        >
           <Link href="/">
             Home
             <div />
           </Link>
         </li>
-        <li className="p-[12px]" key={`events`}>
+        <li
+          className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
+          key={`events`}
+        >
           <Link href="/">
             Events
             <div />
           </Link>
         </li>
-        <li className="p-[12px] hover:cursor-pointer" key={`membership`}>
+        <li
+          className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
+          key={`membership`}
+        >
           <a href="https://www.w3schools.com/tags/tag_a.asp">Membership</a>
         </li>
-        <li className="p-[12px]" key={`newsletter`}>
-          <Link href="/">
+        <li
+          className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
+          key={`newsletter`}
+        >
+          <Link href="/newsletter">
             Newsletter
             <div />
           </Link>
         </li>
-        <li className="p-[12px] hover:text-[#454678]" key={`events`}>
-          <a href="https://www.instagram.com">
+        <li
+          className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
+          key={`events`}
+        >
+          <a href="/team">
             Team
             <div />
           </a>
