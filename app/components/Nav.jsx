@@ -14,7 +14,7 @@ const Navbar = () => {
           <Image width={210} height={210} src="./nav_logo.svg" />
         </Link>
       </div>
-      <ul className="justify-items-end flex justify-center items-center">
+      <ul className="justify-items-end flex justify-center items-center navList">
         <li
           className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
           key={`home`}

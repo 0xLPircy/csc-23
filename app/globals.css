@@ -8,6 +8,12 @@
   font-family: "Kodchasan", sans-serif;
 }
 
+@media (max-width: 960px) {
+  .navList {
+    display: none;
+  }
+}
+
 .pageSeparator {
   background: linear-gradient(to right, black, #ff8c32, black);
   height: 0.05rem;
