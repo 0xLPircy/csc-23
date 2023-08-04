@@ -6,18 +6,22 @@ const Header = () => {
   return (
     <>
       <div className="grid grid-flow-row justify-center items-center content-center text-[#fefefe]">
-        <div className="justify-self-center">
+        <div className="mdlogo justify-self-center">
+          {" "}
+          <Image src={LogoGif} height={270} width={270} />{" "}
+        </div>
+        <div className="lglogo justify-self-center">
           <Image src={LogoGif} height={420} width={420} />
         </div>
         <div className="justify-self-center">
-          <h1 className="text-4xl font">CYBER SPACE CLUB</h1>
+          <h1 className="md:text-4xl font text-2xl">CYBER SPACE CLUB</h1>
         </div>
-        <div className="text-4xl justify-self-center">
+        <div className="md:text-4xl justify-self-center text-2xl">
           <h1>Manipal University Jaipur</h1>
         </div>
         <div className="grid grid-flow-col items-center justify-around my-6">
           <a href="https://www.w3schools.com/tags/tag_a.asp">
-            <button className="border-[#fe8d32] rounded-sm border-2 py-3 px-11 text-2xl mx-24">
+            <button className="border-[#fe8d32] rounded-sm border-2 md:w-40 md:h-16 h-9 w-32 md:py-3 md:px-11 md:text-2xl text-sm px-6 py-1 mx-24">
               Events
             </button>
           </a>
@@ -26,8 +30,8 @@ const Header = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className=" bg-[linear-gradient(152deg,_#dd7009,_#f8be19)] rounded-sm py-3 px-11 text-2xl mx-24">
-              Join Us
+            <button className=" bg-[linear-gradient(152deg,_#dd7009,_#f8be19)] rounded-sm md:w-40 md:h-16 h-9 w-32 md:py-3 md:px-11 md:text-2xl text-sm px-6 py-1 mx-24">
+              JoinUs
             </button>
           </a>
           {/* <div class="area"> */}

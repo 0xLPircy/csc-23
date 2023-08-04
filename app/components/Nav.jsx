@@ -66,7 +66,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="menu-wrap">
+      {/* <div className="menu-wrap">
         <input type="checkbox" className="toggler" />
         <div className="hamburger">
           <div></div>
@@ -115,7 +115,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div className=""> */}
       {/* {toggle && (
                     <div>

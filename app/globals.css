@@ -6,13 +6,23 @@
 
 * {
   font-family: "Kodchasan", sans-serif;
+  box-sizing: border-box;
 }
 
-/* @media (max-width: 960px) { */
-.navList {
-  display: none;
+@media (max-width: 620px) {
+  .navList {
+    display: none;
+  }
+  .lglogo {
+    display: none;
+  }
 }
-/* } */
+
+@media (min-width: 620px) {
+  .mdlogo {
+    display: none;
+  }
+}
 
 .pageSeparator {
   background: linear-gradient(to right, black, #ff8c32, black);
