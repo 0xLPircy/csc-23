@@ -21,7 +21,7 @@ const Header = () => {
         </div>
         <div className="grid grid-flow-col items-center justify-around my-6">
           <a href="https://www.w3schools.com/tags/tag_a.asp">
-            <button className="border-[#fe8d32] rounded-sm border-2 md:w-40 md:h-16 h-9 w-32 md:py-3 md:px-11 md:text-2xl text-sm px-6 py-1 mx-24">
+            <button className="border-[#fe8d32] rounded-sm border-2 md:w-40 md:h-16 h-9 w-32 md:py-3 md:px-11 md:text-2xl text-sm px-6 py-1 md:mx-24 mx-6">
               Events
             </button>
           </a>
@@ -30,7 +30,7 @@ const Header = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className=" bg-[linear-gradient(152deg,_#dd7009,_#f8be19)] rounded-sm md:w-40 md:h-16 h-9 w-32 md:py-3 md:px-11 md:text-2xl text-sm px-6 py-1 mx-24">
+            <button className=" bg-[linear-gradient(152deg,_#dd7009,_#f8be19)] rounded-sm md:w-40 md:h-16 h-9 w-32 md:py-3 md:px-11 md:text-2xl text-sm px-6 py-1 md:mx-24 mx-6">
               JoinUs
             </button>
           </a>
