@@ -5,15 +5,15 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="text-[#f2f2f2] grid grid-flow-col grid-cols-3 pl-48 pr-32 py-9 bg-[#0e0e0e]">
-      <div className="">
+    <div className="text-[#f2f2f2] grid md:grid-flow-col grid-flow-row md:grid-cols-3  md:pr-32 py-9 bg-[#0e0e0e] text-center">
+      <div className="justify-self-center">
         <Image src={Logo} height={150} width={150} />
         <div>
           <h1 className="pt-3">CYBER SPACE CLUB</h1>
         </div>
       </div>
-      <div className="">
-        <h1 className="text-4xl mb-6">Contact Us</h1>
+      <div className="md:mt-0 mt-9">
+        <h1 className="text-4xl md:mb-6 mb-3 text-[#ff8000]">Contact Us</h1>
         <div className="text-xl mb-3">
           <p>+91-9988013355</p>
           <h2>Homedeep Singh Saggu</h2>
@@ -26,9 +26,9 @@ const Footer = () => {
           <p>cyberspacemuj@gmail.com</p>
         </div>
       </div>
-      <div className="">
+      <div className="md:mt-0 mt-9">
         <div>
-          <h1 className="text-4xl mb-6">Address</h1>
+          <h1 className="text-4xl md:mb-6 mb-3 text-[#ff8000]">Address</h1>
         </div>
         <div>
           <p className="text-lg mb-3">
@@ -37,7 +37,9 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <h1 className="text-4xl mt-9">Social Media</h1>
+          <h1 className="text-4xl md:mt-0 mt-9 mb:3 text-[#ff8000]">
+            Social Media
+          </h1>
         </div>
         <div className="">
           insta
