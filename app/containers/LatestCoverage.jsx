@@ -3,11 +3,12 @@ import React from "react";
 const LatestCoverage = () => {
   return (
     <div className="grid grid-flow-row ">
-      <h1 className="text-white text-7xl mt-20 mb-20 justify-self-center">
+      <h1 className="text-white md:text-7xl text-4xl mt-20 mb-20 justify-self-center">
         Latest Coverage
       </h1>
-      <div className="mx-64 h-[400px] mb-20">
+      <div className="justify-self-center h-fit w-fit mb-20">
         <iframe
+          className="md:h-[300px] md:w-[600px] h-[250px] w-[500px]"
           width="100%"
           height="100%"
           src="https://www.youtube.com/embed/9D9CZKHncK0"
