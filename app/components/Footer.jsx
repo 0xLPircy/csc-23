@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="text-[#f2f2f2] grid md:grid-flow-col grid-flow-row md:grid-cols-3  md:pr-32 py-9 bg-[#0e0e0e] text-center">
+    <div className="text-[#f2f2f2] grid md:grid-flow-col grid-flow-row md:grid-cols-3 md:pr-32 py-9 mx-3 bg-[#0e0e0e] text-center">
       <div className="justify-self-center">
         <Image src={Logo} height={150} width={150} />
         <div>
