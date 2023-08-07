@@ -18,21 +18,15 @@
     "link": "https://example.com/newsletters/newsletter2"
   },
   {
-    "title": "Newsletter 1",
+    "title": "Newsletter 4",
     "date": "2023-07-19",
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate",
     "link": "https://example.com/newsletters/newsletter1"
   },
   {
-    "title": "Newsletter 3",
+    "title": "Newsletter 5",
     "date": "2023-07-26",
     "description": "This is the second newsletter.",
     "link": "https://example.com/newsletters/newsletter2"
-  },
-  {
-    "title": "Newsletter 1",
-    "date": "2023-07-19",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate",
-    "link": "https://example.com/newsletters/newsletter1"
   }
 ]
