@@ -29,6 +29,11 @@
   height: 0.05rem;
 }
 
+.ExecGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .circles {
   z-index: -1;
   position: absolute;

@@ -11,8 +11,8 @@ const Person = ({ img, name, post, link1, link2 }) => {
         width={200}
         className="justify-self-center rounded-[100%]"
       />
-      <h2 className="justify-self-center">{name}</h2>
-      <h3 className="justify-self-center">{post}</h3>
+      <h2 className="justify-self-center text-2xl">{name}</h2>
+      <h3 className="justify-self-center text-xl">{post}</h3>
       <div className="justify-self-center">
         <Link href={link1}>Link1</Link>
         <Link href={link2}>Link2</Link>

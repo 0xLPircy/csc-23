@@ -2,19 +2,20 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import insta from "@/assets/insta.png";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="flex items-center fixed juustify-center py-3 border-b-[1px] border-[#f9672d3c] text-white w-full">
-      <div className="self-start">
+    <nav className="grid grid-flow-col grid-cols-4 fixed justify-center px-6 py-3 border-b-[1px] border-[#f9672d3c] text-white w-[100vw]">
+      <div className="c col-span-1">
         <Link href="/">
           {/* <img src={ } alt="logo" /> */}
           <Image width={210} height={210} src="./nav_logo.svg" />
         </Link>
       </div>
-      <ul className="justify-items-end flex justify-center items-center navList">
+      <ul className="flex col-span-3 justify-self-end justify-center items-center navList self-end">
         <li
           className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
           key={`home`}
@@ -49,7 +50,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li
-          className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
+          className="px-[12px] mr-3 hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
           key={`events`}
         >
           <a href="/team">
@@ -62,7 +63,9 @@ const Navbar = () => {
             href="https://www.instagram.com/csc_muj/"
             target="_blank"
             rel="noreferrer"
-          ></a>
+          >
+            <Image src={insta} height={24} width={24} />
+          </a>
         </li>
       </ul>
 
