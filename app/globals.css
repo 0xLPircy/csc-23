@@ -9,6 +9,24 @@
   box-sizing: border-box;
 }
 
+.nav {
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(79, 80, 90, 0.283);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.heads {
+  font-size: 100px;
+  -webkit-text-stroke-width: 4.5px;
+  -webkit-text-stroke-color: #e5d6b7;
+  -webkit-text-fill-color: #000000;
+  letter-spacing: 1px;
+  font-family: Arial Black, Gadget, sans-serif;
+}
+
 @media (max-width: 620px) {
   .navList {
     display: none;

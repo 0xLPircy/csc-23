@@ -10,6 +10,12 @@ import h6 from "@/assets/team/deputyCore.svg";
 import UmaShankar from "@/assets/team/people/FacultyCoordinator/DrUmashankarRawat.jpg";
 import Rohit from "@/assets/team/people/FacultyCoordinator/DrRohitBhatnagar.jpg";
 import Sanchit from "@/assets/team/people/DSW/SanchitAnand.jpg";
+import vansh from "@/assets/team/people/exec/vansh.jpeg";
+import palepu from "@/assets/team/people/exec/palepu.jpeg";
+import dhruv from "@/assets/team/people/exec/dhruv.jpeg";
+import anurag from "@/assets/team/people/exec/anurag.jpeg";
+import salil from "@/assets/team/people/exec/salil.jpeg";
+import taveesha from "@/assets/team/people/exec/taveesha.jpeg";
 
 import Image from "next/image";
 
@@ -104,8 +110,71 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Yatharth Khanna"
+              post="Managing Director"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name="Vishal Raj"
+              post="Deputy Secretary"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name="Shivang Bansal"
+              post="Head of Technical Projects"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name="Ananya Sharma"
+              post="Events Director"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name="Raunak Saxena"
+              post="Human Resource Director"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+            />
+          </div>
+          <div>
+            <Person
+              img={vansh}
+              name="Vansh Dhingra"
+              post="Head of Operation"
+              link1="https://www.linkedin.com/in/vansh-dhingra-866799224"
+              link2="https://instagram.com/vanshdhingra02?igshid=OGQ5ZDc2ODk2ZA=="
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name="Adarsh Devashish"
+              post="Webmaster"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name="Ansh Porwal"
+              post="Research Head"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -113,19 +182,60 @@ const TeamPage = () => {
         </div>
       </div>
       <div className="pageSeparator" />
+      {/* Heads */}
       <div className="grid grid-flow-row justify-center items-center my-20">
-        <Image
-          height={150}
-          width={300}
-          src={h5}
-          className="pb-6 justify-self-center"
-        />
+        <h1 className="heads justify-self-center">HEADS</h1>
         <div className="gap-6 grid grid-cols-3 justify-evenly w-[100vw]">
           <div>
             <Person
+              img={palepu}
+              name="Srivatsa Palepu"
+              post="Technical Head"
+              link1="https://www.linkedin.com/in/srivatsa-palepu-5210a6265"
+              link2="https://instagram.com/srivatsa_palepu?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
+            />
+          </div>
+          <div>
+            <Person
+              img={dhruv}
+              name="Dhruv Bansal"
+              post="Marketing Head"
+              link1="https://www.linkedin.com/in/dhruv-bansal-29b00a168"
+              link2="https://instagram.com/dhruvbansal28?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
+            />
+          </div>
+          <div>
+            <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Darshan Baingani"
+              post="Logistics Head"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+            />
+          </div>
+          <div>
+            <Person
+              img={anurag}
+              name="Anurag Modak"
+              post="Content Head"
+              link1="https://www.linkedin.com/in/anurag-modak-99bb51226"
+              link2="https://instagram.com/anurag._.m765?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+            />
+          </div>
+          <div>
+            <Person
+              img={salil}
+              name="Salil Hiremath"
+              post="Graphic Design Head"
+              link1="https://www.linkedin.com/in/salil-hiremath-946784212"
+              link2="https://instagram.com/saaalil?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name="Ritika Malhotra"
+              post="Curations Head"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -133,8 +243,26 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Shivendra Goenka"
+              post="Coverage Head"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://instagram.com/shivendragoenka?igshid=OGQ5ZDc2ODk2ZA=="
+            />
+          </div>
+          <div>
+            <Person
+              img={taveesha}
+              name="Taveesha Agarwal"
+              post="Joint Webmaster"
+              link1="https://www.linkedin.com/in/taveesha-agarwal-4a159a1b9/ "
+              link2="https://github.com/L-Pircy"
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name="Aditi Jain"
+              post="Joint Technical Head"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -142,8 +270,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Harshit Verma"
+              post="Joint Technical Head"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -151,8 +279,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Anushka Shreya"
+              post="Joint Marketing Head"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -160,8 +288,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Shivam Raj Dubey"
+              post="Joint Marketing Head"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -169,8 +297,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Pratyaksh Singhal"
+              post="Joint Logistics Head"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -178,8 +306,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Lakshay Pawar"
+              post="Joint Logistics Head"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -187,7 +315,52 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
+              name="Navneet"
+              post="Joint Content Head"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name="Sarvi Agarwal"
+              post="Joint Content Head"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name="Akanksha Sinha"
+              post="Joint Graphics Head"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name="Aditi Soni"
+              post="Joint Graphics Head"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name="Arnav Nahar"
+              post="Joint Curations Head"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name=""
               post="Professor in Department of CSE"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"

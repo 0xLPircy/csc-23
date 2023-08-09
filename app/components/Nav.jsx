@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="grid grid-flow-col grid-cols-4 fixed justify-center px-6 py-3 border-b-[1px] border-[#f9672d3c] text-white w-[100vw]">
+    <nav className="grid grid-flow-col grid-cols-4 fixed justify-center px-6 py-3 border-b-[1px] border-[#f9672d3c] text-white w-[100vw] nav">
       <div className="c col-span-1">
         <Link href="/">
           {/* <img src={ } alt="logo" /> */}
