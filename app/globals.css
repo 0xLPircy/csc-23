@@ -16,6 +16,10 @@
   .lglogo {
     display: none;
   }
+  .nlDisplay {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (min-width: 620px) {
@@ -32,6 +36,13 @@
 .ExecGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+@media (min-width: 620px) {
+  .nlDisplay {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .circles {
