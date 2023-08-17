@@ -24,7 +24,15 @@ import ShivendraGoenka from "@\assets\team\people\exec\IMG_7885 - shivendra goen
 import AditiJain from "@/assets\team\people\exec\Snapchat-2000395962 - Aditi jain.jpg";
 import HarshitVarma from "@/assets\team\people\exec\IMG_3375 - Harshit Varma.jpeg";
 import Anushka from "@/assets\team\people\exec\IMG20221215143527 - Anushka Shreya.jpg";
-import SRD from "@/assets\team\people\exec\WhatsApp Image 2023-07-22 at 10.40.13 AM - SHIVAM RAJ DUBEY.jpeg"
+import SRD from "@/assets\team\people\exec\WhatsApp Image 2023-07-22 at 10.40.13 AM - SHIVAM RAJ DUBEY.jpeg";
+import Lakshya from "@/assets\team\people\exec\IMG20230801163456 - Lakshya Pawar.jpg";
+import Navneet from "@\assets\team\people\exec\IMG_20230504_185859582 - bully Maguire.jpg";
+import Sarvi from "@\assets\team\people\exec\Sarvi Agarwal.jpg";
+import AditiSoni from "@\assets\team\people\exec\LINKEDIN DP - Aditi Soni.jpeg";
+import Akansha from "@\assets\team\people\exec\IMG20221119122106 - Akanksha Sinha.jpg";
+import ArnavNahar from "@\assets\team\people\exec\IMG-20230804-WA0022 - Arnav Nahar.jpg"
+
+
 
 import Image from "next/image";
 
@@ -324,56 +332,56 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={UmaShankar}
+              img={Lakshya}
               name="Lakshay Pawar"
               post="Joint Logistics Head"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://instagram.com/_.laksh_07?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+              link2="https://www.linkedin.com/in/lakshya-pawar-165b81265"
             />
           </div>
           <div>
             <Person
-              img={UmaShankar}
+              img={Navneet}
               name="Navneet"
               post="Joint Content Head"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/" //No link is found in Google sheets
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
           </div>
           <div>
             <Person
-              img={UmaShankar}
+              img={Sarvi}
               name="Sarvi Agarwal"
               post="Joint Content Head"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://instagram.com/sarvi.agarwal?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
+              link2="https://www.linkedin.com/in/sarvi-agarwal"
             />
           </div>
           <div>
             <Person
-              img={UmaShankar}
+              img={Akansha}
               name="Akanksha Sinha"
               post="Joint Graphics Head"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/" //Only Insta userID is provided
+              link2="https://www.linkedin.com/in/akanksha-sinha-a9638a268"
             />
           </div>
           <div>
             <Person
-              img={UmaShankar}
+              img={AditiSoni}
               name="Aditi Soni"
               post="Joint Graphics Head"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://instagram.com/_wtf.adu?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
+              link2="https://www.linkedin.com/in/er-aditi-soni"
             />
           </div>
           <div>
             <Person
-              img={UmaShankar}
+              img={ArnavNahar}
               name="Arnav Nahar"
               post="Joint Curations Head"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://instagram.com/arnavnahar_28?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+              link2="https://in.linkedin.com/in/arnav-n-1297a421b"
             />
           </div>
           {/* No details */}
