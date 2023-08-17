@@ -26,7 +26,7 @@ import HarshitVarma from "@/assets\team\people\exec\IMG_3375 - Harshit Varma.jpe
 import Anushka from "@/assets\team\people\exec\IMG20221215143527 - Anushka Shreya.jpg";
 import SRD from "@/assets\team\people\exec\WhatsApp Image 2023-07-22 at 10.40.13 AM - SHIVAM RAJ DUBEY.jpeg";
 import Lakshya from "@/assets\team\people\exec\IMG20230801163456 - Lakshya Pawar.jpg";
-import Navneet from "@\assets\team\people\exec\IMG_20230504_185859582 - bully Maguire.jpg";
+import Navneet from "@\assets\team\people\exec\bully Maguire.jpg";
 import Sarvi from "@\assets\team\people\exec\Sarvi Agarwal.jpg";
 import AditiSoni from "@\assets\team\people\exec\LINKEDIN DP - Aditi Soni.jpeg";
 import Akansha from "@\assets\team\people\exec\IMG20221119122106 - Akanksha Sinha.jpg";
