@@ -16,21 +16,21 @@ import dhruv from "@/assets/team/people/exec/dhruv.jpeg";
 import anurag from "@/assets/team/people/exec/anurag.jpeg";
 import salil from "@/assets/team/people/exec/salil.jpeg";
 import taveesha from "@/assets/team/people/exec/taveesha.jpeg";
-import devanshu from "@/assets/team/people/exec/IMG_3949 - Devanshu Kejriwal.JPG";
-import anmol from "@\assets\team\people\exec\IMG_6608 - Anmol Gill.jpg";
-import ananyasharma from "@assets\team\people\exec\IMG_4139 - ananya.jpeg";
-import Ritika from "@\assets\team\people\exec\IMG_2453 - Ritika Malhotra.jpeg"
-import ShivendraGoenka from "@\assets\team\people\exec\IMG_7885 - shivendra goenka.jpeg";
-import AditiJain from "@/assets\team\people\exec\Snapchat-2000395962 - Aditi jain.jpg";
-import HarshitVarma from "@/assets\team\people\exec\IMG_3375 - Harshit Varma.jpeg";
-import Anushka from "@/assets\team\people\exec\IMG20221215143527 - Anushka Shreya.jpg";
-import SRD from "@/assets\team\people\exec\WhatsApp Image 2023-07-22 at 10.40.13 AM - SHIVAM RAJ DUBEY.jpeg";
-import Lakshya from "@/assets\team\people\exec\IMG20230801163456 - Lakshya Pawar.jpg";
-import Navneet from "@\assets\team\people\exec\bully Maguire.jpg";
-import Sarvi from "@\assets\team\people\exec\Sarvi Agarwal.jpg";
-import AditiSoni from "@\assets\team\people\exec\LINKEDIN DP - Aditi Soni.jpeg";
-import Akansha from "@\assets\team\people\exec\IMG20221119122106 - Akanksha Sinha.jpg";
-import ArnavNahar from "@\assets\team\people\exec\IMG-20230804-WA0022 - Arnav Nahar.jpg"
+import devanshu from "@/assets/team/people/exec/Devanshu Kejriwal.JPG";
+import anmol from "@/assets/team/people/exec/Anmol Gill.jpg";
+import ananyasharma from "@assets/team/people/exec/ananya.jpeg";
+import Ritika from "@/assets/team/people/exec/Ritika Malhotra.jpeg"
+import ShivendraGoenka from "@/assets/team/people/exec/shivendra goenka.jpeg";
+import AditiJain from "@/assets/team/people/exec/Aditi jain.jpg";
+import HarshitVarma from "@/assets/team/people/exec/Harshit Varma.jpeg";
+import Anushka from "@/assets/team/people/exec/Anushka Shreya.jpg";
+import SRD from "@/assets/team/people/exec/SHIVAM RAJ DUBEY.jpeg";
+import Lakshya from "@/assets/team/people/exec/Lakshya Pawar.jpg";
+import Navneet from "@/assets/team/people/exec/bully Maguire.jpg";
+import Sarvi from "@/assets/team/people/exec/Sarvi Agarwal.jpg";
+import AditiSoni from "@/assets/team/people/exec/Aditi Soni.jpeg";
+import Akansha from "@/assets/team/people/exec/Akanksha Sinha.jpg";
+import ArnavNahar from "@/assets/team/people/exec/Arnav Nahar.jpg"
 
 
 
