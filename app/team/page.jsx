@@ -395,6 +395,8 @@ const TeamPage = () => {
         </div>
       </div>
       <div className="pageSeparator" />
+      {/* Senior Coordinator */}
+      {/* SUMIT */}
       <div className="grid grid-flow-row justify-center items-center my-20">
         <Image
           height={350}
