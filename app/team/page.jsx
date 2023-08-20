@@ -411,8 +411,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Karishma Dhyani"
+              post="Senior Coordinator of Content"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -420,8 +420,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Kamya Singh"
+              post="Senior Coordinator of Content"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -429,8 +429,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Chetna Vijay Rai"
+              post="Senior Coordinator of Research"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -438,8 +438,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Ananya Patel"
+              post="Senior Coordinator of Research"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -447,8 +447,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Sumit Kumar"
+              post="Senior Coordinator of Web-Dev"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -456,8 +456,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Atharv Pawar"
+              post="Senior Coordinator of Events"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -465,8 +465,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Harshit Rawat"
+              post="Senior Coordinator of Events"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
@@ -474,8 +474,17 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Dr. Umashankar Rawat"
-              post="Professor in Department of CSE"
+              name="Avni Goel"
+              post="Senior Coordinator of Graphic Design"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+            />
+          </div>
+          <div>
+            <Person
+              img={UmaShankar}
+              name="Chitransh Saxena"
+              post="Senior Coordinator of Technical"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
