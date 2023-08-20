@@ -31,8 +31,13 @@ import Sarvi from "@/assets/team/people/exec/Sarvi Agarwal.jpg";
 import AditiSoni from "@/assets/team/people/exec/Aditi Soni.jpeg";
 import Akansha from "@/assets/team/people/exec/Akanksha Sinha.jpg";
 import ArnavNahar from "@/assets/team/people/exec/Arnav Nahar.jpg";
-import Sumit from "@\assets\team\people\exec\res - Sumit.jpeg";
-import AnanyaPatel from "@\assets\team\people\exec\Ananya Patel.JPG"
+import Sumit from "@/assets/team/people/exec/res - Sumit.jpeg";
+import AnanyaPatel from "@/assets/team/people/exec/Ananya Patel.JPG";
+import Karishma from "@/assets/team/people/exec/Karishma Dhyani.jpg";
+import Chetna from "@/assets/team/people/exec/Chetna Rai.jpg";
+import HarshitRawat from "@/assets/team/people/exec/Harshit Rawat.jpg";
+import AvniGoel from "@/assets/team/people/exec/Avni Goel.jpg";
+import Chitransh from "@/assets/team/people/exec/Chitransh Saxena.jpg";
 
 
 
@@ -421,18 +426,18 @@ const TeamPage = () => {
             />
           </div>
             <Person
-              img={UmaShankar}
+              img={Karishma}
               name="Karishma Dhyani"
               post="Senior Coordinator of Content"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://www.linkedin.com/in/karishma-dhyani-6726661ba"
+              link2="https://instagram.com/karishma_dhyani?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
             />
           </div>
           {/* No details */}
           <div>
             <Person
               img={UmaShankar}
-              name="Kamya Singh"
+              name="Kamya Singh"     
               post="Senior Coordinator of Content"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
@@ -440,11 +445,11 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={UmaShankar}
-              name="Chetna Vijay Rai"
+              img={Chetna}
+              name="Chetna Vijay Rai"   //Photo is upside down 
               post="Senior Coordinator of Research"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://www.linkedin.com/in/chetnarai682004"
+              link2="https://instagram.com/chetna_rai.684?igshid=MzRlODBiNWFlZA=="
             />
           </div>
           <div>
@@ -452,7 +457,7 @@ const TeamPage = () => {
               img={AnanyaPatel}
               name="Ananya Patel"
               post="Senior Coordinator of Research"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/" //No Links available in Google sheets
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
           </div>
@@ -468,29 +473,29 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={UmaShankar}
+              img={HarshitRawat}
               name="Harshit Rawat"
               post="Senior Coordinator of Events"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://www.linkedin.com/in/harshit-rawat-6730571b3?trk=contact-info"
+              link2="https://instagram.com/harshitt_rawat?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
             />
           </div>
           <div>
             <Person
-              img={UmaShankar}
+              img={AvniGoel}
               name="Avni Goel"
               post="Senior Coordinator of Graphic Design"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://www.linkedin.com/in/avni-goel-57041816a"
+              link2="https://instagram.com/goelverse_avni?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
             />
           </div>
           <div>
             <Person
-              img={UmaShankar}
+              img={Chitransh}
               name="Chitransh Saxena"
               post="Senior Coordinator of Technical"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="www.linkedin.com/in/chitranshatlkdin"
+              link2="https://www.instagram.com/_.chitransh_saxena._/"
             />
           </div>
         </div>
