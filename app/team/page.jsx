@@ -31,6 +31,10 @@ import Sarvi from "@/assets/team/people/exec/Sarvi Agarwal.jpg";
 import AditiSoni from "@/assets/team/people/exec/Aditi Soni.jpeg";
 import Akansha from "@/assets/team/people/exec/Akanksha Sinha.jpg";
 import ArnavNahar from "@/assets/team/people/exec/Arnav Nahar.jpg";
+import Sumit from "@\assets\team\people\exec\res - Sumit.jpeg";
+import AnanyaPatel from "@\assets\team\people\exec\Ananya Patel.JPG"
+
+
 
 import Image from "next/image";
 
@@ -396,7 +400,7 @@ const TeamPage = () => {
       </div>
       <div className="pageSeparator" />
       {/* Senior Coordinator */}
-      {/* SUMIT */}
+      {/* SUMIT😅😅😅 */}
       <div className="grid grid-flow-row justify-center items-center my-20">
         <Image
           height={350}
@@ -405,10 +409,17 @@ const TeamPage = () => {
           className="pb-12 justify-self-center"
         />
 
-        {/* No details in the whole div*/}
-
         <div className="gap-6 grid grid-cols-3 justify-evenly w-[100vw]">
           <div>
+          <div>
+            <Person
+              img={Sumit}
+              name="Sumit Kumar"
+              post="Senior Coordinator of Web-Dev"
+              link1="https://www.linkedin.com/in/er-sumit-kr/"
+              link2="https://github.com/07sumit1002"
+            />
+          </div>
             <Person
               img={UmaShankar}
               name="Karishma Dhyani"
@@ -417,6 +428,7 @@ const TeamPage = () => {
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
           </div>
+          {/* No details */}
           <div>
             <Person
               img={UmaShankar}
@@ -437,22 +449,14 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={UmaShankar}
+              img={AnanyaPatel}
               name="Ananya Patel"
               post="Senior Coordinator of Research"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
           </div>
-          <div>
-            <Person
-              img={UmaShankar}
-              name="Sumit Kumar"
-              post="Senior Coordinator of Web-Dev"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
-            />
-          </div>
+          {/* No details */}
           <div>
             <Person
               img={UmaShankar}
