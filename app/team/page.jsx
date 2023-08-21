@@ -47,8 +47,6 @@ import AdarshDevashish from "@\assets\team\people\exec\Adarsh Devashish.jpg";
 import Darshan from "@\assets\team\people\exec\Darshan Baingani.jpg";
 
 
-
-
 import Image from "next/image";
 
 const TeamPage = () => {
@@ -58,7 +56,7 @@ const TeamPage = () => {
         <Image height={600} width={600} src={h1} />
       </div>
       {/* Fac cooredinators */}
-      <div className="grid grid-flow-col grid-cols-7 items-center justify-evenly w-[100vw] my-20 px-12">
+      <div className="grid grid-flow-col grid-cols-7 items-center justify-evenly w-[100vw] mt-3 mb-12 px-12">
         <Image height={300} width={150} src={h2} className="col-span-1" />
         <div className="justify-self-center col-span-3">
           <Person
@@ -409,15 +407,8 @@ const TeamPage = () => {
       {/* Senior Coordinator */}
       {/* SUMIT😅😅😅 */}
       <div className="grid grid-flow-row justify-center items-center my-20">
-        <Image
-          height={350}
-          width={700}
-          src={h6}
-          className="pb-12 justify-self-center"
-        />
-
+        <h1 className="heads justify-self-center">Co-ords</h1>
         <div className="gap-6 grid grid-cols-3 justify-evenly w-[100vw]">
-          <div>
           <div>
             <Person
               img={Sumit}
@@ -427,6 +418,8 @@ const TeamPage = () => {
               link2="https://github.com/07sumit1002"
             />
           </div>
+          <div>
+            {" "}
             <Person
               img={Karishma}
               name="Karishma Dhyani"
@@ -439,7 +432,7 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Kamya Singh"     
+              name="Kamya Singh"
               post="Senior Coordinator of Content"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
