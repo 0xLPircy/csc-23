@@ -39,8 +39,6 @@ import HarshitRawat from "@/assets/team/people/exec/Harshit Rawat.jpg";
 import AvniGoel from "@/assets/team/people/exec/Avni Goel.jpg";
 import Chitransh from "@/assets/team/people/exec/Chitransh Saxena.jpg";
 
-
-
 import Image from "next/image";
 
 const TeamPage = () => {
@@ -407,15 +405,8 @@ const TeamPage = () => {
       {/* Senior Coordinator */}
       {/* SUMIT😅😅😅 */}
       <div className="grid grid-flow-row justify-center items-center my-20">
-        <Image
-          height={350}
-          width={700}
-          src={h6}
-          className="pb-12 justify-self-center"
-        />
-
+        <h1 className="heads justify-self-center">Co-ords</h1>
         <div className="gap-6 grid grid-cols-3 justify-evenly w-[100vw]">
-          <div>
           <div>
             <Person
               img={Sumit}
@@ -425,6 +416,8 @@ const TeamPage = () => {
               link2="https://github.com/07sumit1002"
             />
           </div>
+          <div>
+            {" "}
             <Person
               img={Karishma}
               name="Karishma Dhyani"
@@ -437,7 +430,7 @@ const TeamPage = () => {
           <div>
             <Person
               img={UmaShankar}
-              name="Kamya Singh"     
+              name="Kamya Singh"
               post="Senior Coordinator of Content"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
@@ -446,7 +439,7 @@ const TeamPage = () => {
           <div>
             <Person
               img={Chetna}
-              name="Chetna Vijay Rai"   //Photo is upside down 
+              name="Chetna Vijay Rai" //Photo is upside down
               post="Senior Coordinator of Research"
               link1="https://www.linkedin.com/in/chetnarai682004"
               link2="https://instagram.com/chetna_rai.684?igshid=MzRlODBiNWFlZA=="
