@@ -38,6 +38,14 @@ import Chetna from "@/assets/team/people/exec/Chetna Rai.jpg";
 import HarshitRawat from "@/assets/team/people/exec/Harshit Rawat.jpg";
 import AvniGoel from "@/assets/team/people/exec/Avni Goel.jpg";
 import Chitransh from "@/assets/team/people/exec/Chitransh Saxena.jpg";
+import Ayushman from "@\assets\team\people\exec\Aayushman Ranjan.jpeg";
+import Lovish from "@\assets\team\people\exec\lovish aneja.jpeg";
+import Yatharth from "@\assets\team\people\exec\Yatharth Khanna.jpg";
+import Shivang from "@\assets\team\people\exec\Shivang Bansal.jpg";
+import Raunak from "@\assets\team\people\exec\raunak.png";
+import AdarshDevashish from "@\assets\team\people\exec\Adarsh Devashish.jpg";
+import Darshan from "@\assets\team\people\exec\Darshan Baingani.jpg";
+
 
 
 
@@ -95,14 +103,13 @@ const TeamPage = () => {
           className="justify-self-center pb-6"
         />
         <div className="gap-6 ExecGrid justify-evenly w-[100vw]">
-          {/* No details */}
           <div className="">
             <Person
-              img={UmaShankar}
+              img={Ayushman}
               name="Aayushman Ranjan"
               post="Chairperson"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://www.linkedin.com/in/aayushmanranjan"
+              link2="https://instagram.com/aayushman024?igshid=NjIwNzIyMDk2Mg=="
             />
           </div>
           <div>
@@ -114,14 +121,13 @@ const TeamPage = () => {
               link2="https://instagram.com/dev.kejriwal06?igshid=MjEwN2IyYWYwYw=="
             />
           </div>
-          {/* No details */}
           <div>
             <Person
-              img={UmaShankar}
+              img={Lovish}
               name="Lovish Aneja"
               post="General Secretary"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://www.linkedin.com/in/lovish-aneja-b71023269"
+              link2="https://instagram.com/lovish_aneja?igshid=OGQ5ZDc2ODk2ZA=="
             />
           </div>
           <div>
@@ -133,14 +139,13 @@ const TeamPage = () => {
               link2="https://www.linkedin.com/in/anmol-singh-gill-247506224/"
             />
           </div>
-          {/* No details */}
           <div>
             <Person
-              img={UmaShankar}
+              img={Yatharth}
               name="Yatharth Khanna"
               post="Managing Director"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://www.linkedin.com/in/yatharth-khanna-960ab224b"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html" //Only one link is available
             />
           </div>
           {/* No details */}
@@ -153,14 +158,13 @@ const TeamPage = () => {
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
           </div>
-          {/* No details */}
           <div>
             <Person
-              img={UmaShankar}
+              img={Shivang}
               name="Shivang Bansal"
               post="Head of Technical Projects"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://www.linkedin.com/in/shivang-bansal-7a14661bb"
+              link2="https://instagram.com/bansalshivang.52?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
             />
           </div>
           <div>
@@ -172,14 +176,14 @@ const TeamPage = () => {
               link2="https://www.linkedin.com/in/ananya-sharma-85a57b231"
             />
           </div>
-          {/* No details */}
+          {/* Fill it */}
           <div>
             <Person
-              img={UmaShankar}
+              img={Raunak} //Image is having some issues with the extension   
               name="Raunak Saxena"
               post="Human Resource Director"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://www.linkedin.com/in/raunaksaxena193"
+              link2="https://instagram.com/raunak.saxena.50?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
             />
           </div>
           <div>
@@ -191,14 +195,13 @@ const TeamPage = () => {
               link2="https://instagram.com/vanshdhingra02?igshid=OGQ5ZDc2ODk2ZA=="
             />
           </div>
-          {/* No details */}
           <div>
             <Person
-              img={UmaShankar}
+              img={AdarshDevashish}
               name="Adarsh Devashish"
               post="Webmaster"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://www.instagram.com/adarsh_2403/"
+              link2="https://github.com/AdarshDevashish"
             />
           </div>
           {/* No details */}
@@ -236,14 +239,13 @@ const TeamPage = () => {
               link2="https://instagram.com/dhruvbansal28?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
             />
           </div>
-          {/* No details */}
           <div>
             <Person
-              img={UmaShankar}
+              img={Darshan}
               name="Darshan Baingani"
               post="Logistics Head"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/" //only one link given
+              link2="https://instagram.com/darshanj13"
             />
           </div>
           <div>
@@ -269,8 +271,8 @@ const TeamPage = () => {
               img={Ritika}
               name="Ritika Malhotra"
               post="Curations Head"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/" //No link is available in Google sheets
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
+              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/" //Only one link is available
+              link2="https://www.instagram.com/raymamarey/"
             />
           </div>
           <div>
@@ -446,7 +448,7 @@ const TeamPage = () => {
           <div>
             <Person
               img={Chetna}
-              name="Chetna Vijay Rai"   //Photo is upside down 
+              name="Chetna Vijay Rai"  
               post="Senior Coordinator of Research"
               link1="https://www.linkedin.com/in/chetnarai682004"
               link2="https://instagram.com/chetna_rai.684?igshid=MzRlODBiNWFlZA=="
@@ -457,7 +459,7 @@ const TeamPage = () => {
               img={AnanyaPatel}
               name="Ananya Patel"
               post="Senior Coordinator of Research"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/" //No Links available in Google sheets
+              link1="https://www.linkedin.com/in/ananya-p-23a641208" //Insta userId shared 
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
           </div>
