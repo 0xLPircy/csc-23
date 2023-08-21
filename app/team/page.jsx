@@ -48,7 +48,7 @@ const TeamPage = () => {
         <Image height={600} width={600} src={h1} />
       </div>
       {/* Fac cooredinators */}
-      <div className="grid grid-flow-col grid-cols-7 items-center justify-evenly w-[100vw] my-20 px-12">
+      <div className="grid grid-flow-col grid-cols-7 items-center justify-evenly w-[100vw] mt-3 mb-12 px-12">
         <Image height={300} width={150} src={h2} className="col-span-1" />
         <div className="justify-self-center col-span-3">
           <Person
