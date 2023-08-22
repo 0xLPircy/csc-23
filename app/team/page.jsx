@@ -16,37 +16,35 @@ import dhruv from "@/assets/team/people/exec/dhruv.jpeg";
 import anurag from "@/assets/team/people/exec/anurag.jpeg";
 import salil from "@/assets/team/people/exec/salil.jpeg";
 import taveesha from "@/assets/team/people/exec/taveesha.jpeg";
-import devanshu from "@/assets/team/people/exec/Devanshu Kejriwal.JPG";
-import anmol from "@/assets/team/people/exec/Anmol Gill.jpg";
+import devanshu from "@/assets/team/people/exec/DevanshuKejriwal.JPG";
+import anmol from "@/assets/team/people/exec/AnmolGill.jpg";
 import ananyasharma from "@/assets/team/people/exec/ananya.jpeg";
-import Ritika from "@/assets/team/people/exec/Ritika Malhotra.jpeg";
-import ShivendraGoenka from "@/assets/team/people/exec/shivendra goenka.jpeg";
-import AditiJain from "@/assets/team/people/exec/Aditi jain.jpg";
-import HarshitVarma from "@/assets/team/people/exec/Harshit Varma.jpeg";
-import Anushka from "@/assets/team/people/exec/Anushka Shreya.jpg";
-import SRD from "@/assets/team/people/exec/SHIVAM RAJ DUBEY.jpeg";
-import Lakshya from "@/assets/team/people/exec/Lakshya Pawar.jpg";
-import Navneet from "@/assets/team/people/exec/bully Maguire.jpg";
-import Sarvi from "@/assets/team/people/exec/Sarvi Agarwal.jpg";
-import AditiSoni from "@/assets/team/people/exec/Aditi Soni.jpeg";
-import Akansha from "@/assets/team/people/exec/Akanksha Sinha.jpg";
-import ArnavNahar from "@/assets/team/people/exec/Arnav Nahar.jpg";
-import Sumit from "@/assets/team/people/exec/res - Sumit.jpeg";
-import AnanyaPatel from "@/assets/team/people/exec/Ananya Patel.JPG";
-import Karishma from "@/assets/team/people/exec/Karishma Dhyani.jpg";
-import Chetna from "@/assets/team/people/exec/Chetna Rai.jpg";
-import HarshitRawat from "@/assets/team/people/exec/Harshit Rawat.jpg";
-import AvniGoel from "@/assets/team/people/exec/Avni Goel.jpg";
-import Chitransh from "@/assets/team/people/exec/Chitransh Saxena.jpg";
-import Ayushman from "@\assets\team\people\exec\Aayushman Ranjan.jpeg";
-import Lovish from "@\assets\team\people\exec\lovish aneja.jpeg";
-import Yatharth from "@\assets\team\people\exec\Yatharth Khanna.jpg";
-import Shivang from "@\assets\team\people\exec\Shivang Bansal.jpg";
-import Raunak from "@\assets\team\people\exec\raunak.png";
-import AdarshDevashish from "@\assets\team\people\exec\Adarsh Devashish.jpg";
-import Darshan from "@\assets\team\people\exec\Darshan Baingani.jpg";
-
-
+import Ritika from "@/assets/team/people/exec/RitikaMalhotra.jpeg";
+import ShivendraGoenka from "@/assets/team/people/exec/shivendragoenka.jpeg";
+import AditiJain from "@/assets/team/people/exec/Aditijain.jpg";
+import HarshitVarma from "@/assets/team/people/exec/HarshitVarma.jpeg";
+import Anushka from "@/assets/team/people/exec/AnushkaShreya.jpg";
+import SRD from "@/assets/team/people/exec/SHIVAMRAJDUBEY.jpeg";
+import Lakshya from "@/assets/team/people/exec/LakshyaPawar.jpg";
+import Navneet from "@/assets/team/people/exec/bullyMaguire.jpg";
+import Sarvi from "@/assets/team/people/exec/SarviAgarwal.jpg";
+import AditiSoni from "@/assets/team/people/exec/AditiSoni.jpeg";
+import Akansha from "@/assets/team/people/exec/AkankshaSinha.jpg";
+import ArnavNahar from "@/assets/team/people/exec/ArnavNahar.jpg";
+import Sumit from "@/assets/team/people/exec/sumit.jpeg";
+import AnanyaPatel from "@/assets/team/people/exec/AnanyaPatel.JPG";
+import Karishma from "@/assets/team/people/exec/KarishmaDhyani.jpg";
+import Chetna from "@/assets/team/people/exec/ChetnaRai.jpg";
+import HarshitRawat from "@/assets/team/people/exec/HarshitRawat.jpg";
+import AvniGoel from "@/assets/team/people/exec/AvniGoel.jpg";
+import Chitransh from "@/assets/team/people/exec/ChitranshSaxena.jpg";
+import Ayushman from "@/assets/team/people/exec/AayushmanRanjan.jpeg";
+import Lovish from "@/assets/team/people/exec/lovishaneja.jpeg";
+import Yatharth from "@/assets/team/people/exec/YatharthKhanna.jpg";
+import Shivang from "@/assets/team/people/exec/ShivangBansal.jpg";
+// import Raunak from "@/assets/team/people/exec/raunak.png";
+import AdarshDevashish from "@/assets/team/people/exec/AdarshDevashish.jpg";
+import Darshan from "@/assets/team/people/exec/DarshanBaingani.jpg";
 import Image from "next/image";
 
 const TeamPage = () => {
@@ -177,7 +175,7 @@ const TeamPage = () => {
           {/* Fill it */}
           <div>
             <Person
-              img={Raunak} //Image is having some issues with the extension   
+              img={UmaShankar} //Image is having some issues with the extension
               name="Raunak Saxena"
               post="Human Resource Director"
               link1="https://www.linkedin.com/in/raunaksaxena193"
@@ -441,7 +439,7 @@ const TeamPage = () => {
           <div>
             <Person
               img={Chetna}
-              name="Chetna Vijay Rai"  
+              name="Chetna Vijay Rai"
               post="Senior Coordinator of Research"
               link1="https://www.linkedin.com/in/chetnarai682004"
               link2="https://instagram.com/chetna_rai.684?igshid=MzRlODBiNWFlZA=="
@@ -452,7 +450,7 @@ const TeamPage = () => {
               img={AnanyaPatel}
               name="Ananya Patel"
               post="Senior Coordinator of Research"
-              link1="https://www.linkedin.com/in/ananya-p-23a641208" //Insta userId shared 
+              link1="https://www.linkedin.com/in/ananya-p-23a641208" //Insta userId shared
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
           </div>
