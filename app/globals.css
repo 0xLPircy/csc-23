@@ -27,6 +27,15 @@
   font-family: Arial Black, Gadget, sans-serif;
 }
 
+.senior {
+  font-size: 60px;
+  -webkit-text-stroke-width: 4.5px;
+  -webkit-text-stroke-color: #e5d6b7;
+  -webkit-text-fill-color: #000000;
+  letter-spacing: 1px;
+  font-family: Arial Black, Gadget, sans-serif;
+}
+
 @media (max-width: 620px) {
   .navList {
     display: none;
@@ -38,6 +47,9 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  /* .person-img {
+    display: none;
+  } */
 }
 
 @media (min-width: 620px) {

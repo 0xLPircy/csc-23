@@ -49,12 +49,20 @@ import Image from "next/image";
 
 const TeamPage = () => {
   return (
-    <div className="grid grid-flow-row justify-center items-center pt-[90px] text-[#eeeeee]">
+    <div
+      className="grid grid-flow-row justify-center items-center pt-[90px] text-[#eeeeee]
+    g:bg-slate-800
+    d:bg-slate-600
+    m:bg-slate-400"
+    >
       <div className="justify-self-center">
         <Image height={600} width={600} src={h1} />
       </div>
       {/* Fac cooredinators */}
-      <div className="grid grid-flow-col grid-cols-7 items-center justify-evenly w-[100vw] mt-3 mb-12 px-12">
+      <div
+        className="grid grid-flow-col items-center justify-evenly mt-3 mb-12 px-12
+      grid-cols-7 w-[100vw] "
+      >
         <Image height={300} width={150} src={h2} className="col-span-1" />
         <div className="justify-self-center col-span-3">
           <Person
@@ -77,7 +85,7 @@ const TeamPage = () => {
       </div>
       <div className="pageSeparator" />
       {/* dsw */}
-      <div className="grid grid-flow-col grid-cols-7 my-20 justify-center items-center">
+      <div className="grid grid-flow-col grid-cols-7 my-20 justify-center items-center mx-12">
         <div className="justify-self-center col-span-6">
           <Person
             img={Sanchit}
@@ -87,7 +95,7 @@ const TeamPage = () => {
             link2="https://jaipur.manipal.edu/muj/academics/institution-list/foe/schools-faculty/faculty-list/Sanchit-Anand.html"
           />
         </div>
-        <Image height={200} width={100} src={h3} className="c col-span-1" />
+        <Image height={200} width={100} src={h3} className="col-span-1" />
       </div>
       <div className="pageSeparator" />
       {/* Exec */}
@@ -405,7 +413,7 @@ const TeamPage = () => {
       {/* Senior Coordinator */}
       {/* SUMIT😅😅😅 */}
       <div className="grid grid-flow-row justify-center items-center my-20">
-        <h1 className="heads justify-self-center">Co-ords</h1>
+        <h1 className="senior justify-self-center">Senior Co-ordinators</h1>
         <div className="gap-6 grid grid-cols-3 justify-evenly w-[100vw]">
           <div>
             <Person
