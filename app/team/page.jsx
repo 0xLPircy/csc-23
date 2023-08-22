@@ -56,14 +56,48 @@ const TeamPage = () => {
     m:bg-slate-400"
     >
       <div className="justify-self-center">
-        <Image height={600} width={600} src={h1} />
+        <Image
+          height={600}
+          width={600}
+          src={h1}
+          className="
+          md:hidden
+          sm:hidden
+          lg:block"
+        />{" "}
+        <Image
+          height={500}
+          width={500}
+          src={h1}
+          className="
+        md:block
+        sm:hidden
+        lg:hidden"
+        />{" "}
+        <Image
+          height={400}
+          width={400}
+          src={h1}
+          className="
+          md:hidden
+          sm:block
+          lg:hidden"
+        />
       </div>
       {/* Fac cooredinators */}
       <div
-        className="grid grid-flow-col items-center justify-evenly mt-3 mb-12 px-12
-      grid-cols-7 w-[100vw] "
+        className="grid md:grid-flow-col sm:grid-flow-row items-center justify-evenly mt-3 mb-12 px-12
+      md:grid-cols-7 w-[100vw] "
       >
-        <Image height={300} width={150} src={h2} className="col-span-1" />
+        <Image
+          height={300}
+          width={150}
+          src={h2}
+          className="col-span-1 md:block sm:hidden"
+        />
+        <h1 className="md:hidden sm:block fc place-content-center">
+          FACULTY COORDINATORS
+        </h1>
         <div className="justify-self-center col-span-3">
           <Person
             img={Rohit}
@@ -104,7 +138,28 @@ const TeamPage = () => {
           height={300}
           width={600}
           src={h4}
-          className="justify-self-center pb-6"
+          className="justify-self-center pb-6
+          md:hidden
+          sm:hidden
+          lg:block"
+        />{" "}
+        <Image
+          height={300}
+          width={500}
+          src={h4}
+          className="justify-self-center pb-6
+        md:block
+        sm:hidden
+        lg:hidden"
+        />{" "}
+        <Image
+          height={300}
+          width={400}
+          src={h4}
+          className="justify-self-center pb-6
+          md:hidden
+          sm:block
+          lg:hidden"
         />
         <div className="gap-6 ExecGrid justify-evenly w-[100vw]">
           <div className="">
