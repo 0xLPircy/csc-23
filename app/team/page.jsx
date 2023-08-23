@@ -42,7 +42,7 @@ import Ayushman from "@/assets/team/people/exec/AayushmanRanjan.jpeg";
 import Lovish from "@/assets/team/people/exec/lovishaneja.jpeg";
 import Yatharth from "@/assets/team/people/exec/YatharthKhanna.jpg";
 import Shivang from "@/assets/team/people/exec/ShivangBansal.jpg";
-// import Raunak from "@/assets/team/people/exec/raunak.png";
+import Raunak from "@/assets/team/people/exec/Raunak.jpeg";
 import AdarshDevashish from "@/assets/team/people/exec/AdarshDevashish.jpg";
 import Darshan from "@/assets/team/people/exec/DarshanBaingani.jpg";
 import VishalRai from "@/assets/team/people/exec/VishalRai.jpg";
@@ -241,7 +241,7 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={UmaShankar} //Image is having some issues with the extension
+              img={Raunak} //Image is having some issues with the extension
               name="Raunak Saxena"
               post="Human Resource Director"
               link1="https://www.linkedin.com/in/raunaksaxena193"
