@@ -241,7 +241,7 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={Raunak} //Image is having some issues with the extension
+              img={Raunak} 
               name="Raunak Saxena"
               post="Human Resource Director"
               link1="https://www.linkedin.com/in/raunaksaxena193"
