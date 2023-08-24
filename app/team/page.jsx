@@ -27,7 +27,7 @@ import HarshitVarma from "@/assets/team/people/exec/HarshitVarma.jpeg";
 import Anushka from "@/assets/team/people/exec/AnushkaShreya.jpg";
 import SRD from "@/assets/team/people/exec/SHIVAMRAJDUBEY.jpeg";
 import Lakshya from "@/assets/team/people/exec/LakshyaPawar.jpg";
-import Navneet from "@/assets/team/people/exec/bullyMaguire.jpg";
+import Navneet from "@/assets/team/people/exec/navneet.jpeg";
 import Sarvi from "@/assets/team/people/exec/SarviAgarwal.jpg";
 import AditiSoni from "@/assets/team/people/exec/AditiSoni.jpeg";
 import Akansha from "@/assets/team/people/exec/AkankshaSinha.jpg";
@@ -94,8 +94,8 @@ const TeamPage = () => {
       </div>
       {/* Fac cooredinators */}
       <div
-        className="grid md:grid-flow-col grid-flow-row items-center justify-evenly mt-3 mb-12 px-12
-      md:grid-cols-7 grid-cols-1 w-[100vw] "
+        className="grid grid-flow-row items-center justify-evenly mt-3 mb-12 px-12
+      md:grid-cols-7 w-[100vw] sm:grid-cols-2 grid-cols-1"
       >
         <Image
           height={300}
@@ -107,12 +107,12 @@ const TeamPage = () => {
           height={600}
           width={300}
           src={h21}
-          className="col-span-1 justify-self-center md:hidden block"
+          className="sm:col-span-2 my-6 justify-self-center md:hidden sm:block"
         />
         {/* <h1 className="md:hidden sm:block fc place-content-center">
           FACULTY COORDINATORS
         </h1> */}
-        <div className="justify-self-center col-span-3">
+        <div className="justify-self-center md:col-span-3">
           <Person
             img={Rohit}
             name="Dr. Roheet Bhatnagar"
@@ -121,7 +121,7 @@ const TeamPage = () => {
             link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/roheet-bhatnagar.html"
           />
         </div>
-        <div className="col-span-3">
+        <div className="md:col-span-3">
           <Person
             img={UmaShankar}
             name="Dr. Umashankar Rawat"
@@ -154,7 +154,7 @@ const TeamPage = () => {
           src={h4}
           className="justify-self-center pb-6
           md:hidden
-          sm:hidden
+          hidden
           lg:block"
         />{" "}
         <Image
@@ -163,7 +163,7 @@ const TeamPage = () => {
           src={h4}
           className="justify-self-center pb-6
         md:block
-        sm:hidden
+        hidden
         lg:hidden"
         />{" "}
         <Image
@@ -172,10 +172,10 @@ const TeamPage = () => {
           src={h4}
           className="justify-self-center pb-6
           md:hidden
-          sm:block
+          block
           lg:hidden"
         />
-        <div className="gap-6 ExecGrid justify-evenly w-[100vw]">
+        <div className="gap-6 grid grid-flow-row md:grid-cols-3 sm:grid-cols-2 justify-evenly w-[100vw]">
           <div className="">
             <Person
               img={Ayushman}
@@ -289,8 +289,10 @@ const TeamPage = () => {
       <div className="pageSeparator" />
       {/* Heads */}
       <div className="grid grid-flow-row justify-center items-center my-20">
-        <h1 className="heads justify-self-center">HEADS</h1>
-        <div className="gap-6 grid grid-cols-3 justify-evenly w-[100vw]">
+        <h1 className="heads justify-self-center md:text-8xl text-7xl mb-6">
+          HEADS
+        </h1>
+        <div className="gap-6 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-evenly w-[100vw]">
           <div>
             <Person
               img={palepu}

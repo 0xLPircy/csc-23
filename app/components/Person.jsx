@@ -33,13 +33,25 @@ const Person = ({ img, name, post, link1, link2 }) => {
         className="justify-self-center rounded-[100%]
           md:hidden
           sm:block
-          lg:hidden"
+          lg:hidden
+          hidden"
+      />
+      <Image
+        src={img}
+        height={210}
+        width={210}
+        className="justify-self-center rounded-[100%]
+          md:hidden
+          sm:hidden
+          lg:hidden
+          block"
       />
       <h2
         className="justify-self-center 
       lg:text-2xl
       md:text-xl
-      sm:text-lg"
+      sm:text-lg
+      text-xl"
       >
         {name}
       </h2>
@@ -47,7 +59,8 @@ const Person = ({ img, name, post, link1, link2 }) => {
         className="justify-self-center 
       lg:text-xl
       md:text-lg
-      sm:text-md"
+      sm:text-md
+      text-lg"
       >
         {post}
       </h3>

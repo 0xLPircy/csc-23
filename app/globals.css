@@ -19,8 +19,7 @@
 }
 
 .heads {
-  font-size: 100px;
-  -webkit-text-stroke-width: 4.5px;
+  -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #e5d6b7;
   -webkit-text-fill-color: #000000;
   letter-spacing: 1px;
