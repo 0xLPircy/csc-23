@@ -3,6 +3,7 @@ import "@/app/globals.css";
 import Person from "../components/Person";
 import h1 from "@/assets/team/behindTheScene.svg";
 import h2 from "@/assets/team/facultyCoordinator.svg";
+import h21 from "@/assets/team/facultyCoordinatorStraight.svg";
 import h3 from "@/assets/team/dsw.svg";
 import h4 from "@/assets/team/executive.svg";
 import h5 from "@/assets/team/core.svg";
@@ -47,8 +48,7 @@ import AdarshDevashish from "@/assets/team/people/exec/AdarshDevashish.jpg";
 import Darshan from "@/assets/team/people/exec/DarshanBaingani.jpg";
 import VishalRai from "@/assets/team/people/exec/VishalRai.jpg";
 import AnshPorwal from "@/assets/team/people/exec/AnshPorwal.jpg";
-import Kamya from "@/assets/team/people/exec/Kamya.jpg"
-
+import Kamya from "@/assets/team/people/exec/Kamya.jpg";
 
 import Image from "next/image";
 
@@ -62,10 +62,12 @@ const TeamPage = () => {
     >
       <div className="justify-self-center">
         <Image
+          alt="our team"
           height={600}
           width={600}
           src={h1}
           className="
+          hidden
           md:hidden
           sm:hidden
           lg:block"
@@ -75,6 +77,7 @@ const TeamPage = () => {
           width={500}
           src={h1}
           className="
+          hidden
         md:block
         sm:hidden
         lg:hidden"
@@ -85,24 +88,30 @@ const TeamPage = () => {
           src={h1}
           className="
           md:hidden
-          sm:block
+          block
           lg:hidden"
         />
       </div>
       {/* Fac cooredinators */}
       <div
-        className="grid md:grid-flow-col sm:grid-flow-row items-center justify-evenly mt-3 mb-12 px-12
-      md:grid-cols-7 w-[100vw] "
+        className="grid md:grid-flow-col grid-flow-row items-center justify-evenly mt-3 mb-12 px-12
+      md:grid-cols-7 grid-cols-1 w-[100vw] "
       >
         <Image
           height={300}
           width={150}
           src={h2}
-          className="col-span-1 md:block sm:hidden"
+          className="col-span-1 md:block hidden"
+        />{" "}
+        <Image
+          height={600}
+          width={300}
+          src={h21}
+          className="col-span-1 justify-self-center md:hidden block"
         />
-        <h1 className="md:hidden sm:block fc place-content-center">
+        {/* <h1 className="md:hidden sm:block fc place-content-center">
           FACULTY COORDINATORS
-        </h1>
+        </h1> */}
         <div className="justify-self-center col-span-3">
           <Person
             img={Rohit}
@@ -218,7 +227,7 @@ const TeamPage = () => {
               name="Vishal Raj"
               post="Deputy Secretary"
               link1="https://www.linkedin.com/in/vishal-rai-770464222"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"  //Insta USerId is given Need Link Instead
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html" //Insta USerId is given Need Link Instead
             />
           </div>
           <div>
@@ -241,7 +250,7 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={Raunak} 
+              img={Raunak}
               name="Raunak Saxena"
               post="Human Resource Director"
               link1="https://www.linkedin.com/in/raunaksaxena193"
@@ -305,7 +314,7 @@ const TeamPage = () => {
               img={Darshan}
               name="Darshan Baingani"
               post="Logistics Head"
-              link1="https://www.linkedin.com/in/darshan-baingani/" 
+              link1="https://www.linkedin.com/in/darshan-baingani/"
               link2="https://instagram.com/darshanj13"
             />
           </div>
@@ -359,7 +368,7 @@ const TeamPage = () => {
               img={AditiJain}
               name="Aditi Jain"
               post="Joint Technical Head"
-              link1="https://instagram.com/aditijain.thv?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" 
+              link1="https://instagram.com/aditijain.thv?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
               link2="https://www.linkedin.com/in/aditi-jain-09ab53244"
             />
           </div>
@@ -413,7 +422,7 @@ const TeamPage = () => {
               img={Navneet}
               name="Navneet"
               post="Joint Content Head"
-              link1="https://www.linkedin.com/in/k-navneet-vishnu-932a5424a" 
+              link1="https://www.linkedin.com/in/k-navneet-vishnu-932a5424a"
               link2="https://www.instagram.com/navneetk_1147/"
             />
           </div>
@@ -513,7 +522,7 @@ const TeamPage = () => {
               img={AnanyaPatel}
               name="Ananya Patel"
               post="Senior Coordinator of Research"
-              link1="https://www.linkedin.com/in/ananya-p-23a641208" 
+              link1="https://www.linkedin.com/in/ananya-p-23a641208"
               link2="https://instagram.com/ananyaaa_16?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
             />
           </div>
