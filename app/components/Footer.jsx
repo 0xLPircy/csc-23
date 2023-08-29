@@ -1,8 +1,8 @@
 import React from "react";
 import Logo from "../../assets/cs.svg";
 import Image from "next/image";
-import linkedin from "@/assets/linkedin-icon.webp";
 import insta from "@/assets/insta.png";
+import linkedin from "@/assets/linkedin.png";
 // import bg from "../../assets/footerBackground.svg";
 
 const Footer = () => {
@@ -17,15 +17,15 @@ const Footer = () => {
       <div className="md:mt-0 mt-9">
         <h1 className="text-4xl md:mb-6 mb-3 text-[#ff8000]">Contact Us</h1>
         <div className="text-xl mb-3">
-          <p>+91-9304504962</p>
-          <h2>Ayushman Ranjan</h2>
+          <p><a href="tel:9304504962">+91-93045 04962</a></p>
+          <h2>Aayushman Ranjan</h2>
         </div>
         <div className="text-xl mb-3">
-          <p>+91-8825224208</p>
-          <h2>Devanshu Kejriwal</h2>
+          <p><a href="tel:9034953199">+91-90349 53199</a></p>
+          <h2>Lovish Aneja</h2>
         </div>
         <div className="text-xl">
-          <p>cyberspacemuj@gmail.com</p>
+          <p><a href="mailto:cyber.space@muj.manipal.edu">cyber.space@muj.manipal.edu</a></p>
         </div>
       </div>
       <div className="md:mt-0 mt-9">
@@ -43,11 +43,11 @@ const Footer = () => {
             Social Media
           </h1>
         </div>
-        <div className="flex gap-12 justify-center mt-3">
-          <a href="https://www.instagram.com/csc_muj/" rel="noreferrer">
-            <Image src={insta} height={27} width={27} />{" "}
+        <div className="social-media">
+          <a href="https://www.instagram.com/csc_muj/" rel="noreferrer" className="insta">
+            <Image src={insta} height={24} width={24} />
           </a>
-          <a href="https://www.linkedin.com/in/taveesha-agarwal-4a159a1b9/">
+          <a href="https://www.linkedin.com/company/cyber-space-club/" rel="noreferrer" className="linkedin">
             <Image src={linkedin} height={24} width={24} />
           </a>
         </div>
