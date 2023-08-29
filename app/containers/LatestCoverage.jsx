@@ -2,7 +2,7 @@ import React from "react";
 
 const LatestCoverage = () => {
   return (
-    <div className="grid grid-flow-row ">
+    <div className="grid grid-flow-row coveragebg">
       <h1 className="text-white md:text-7xl text-4xl mt-20 mb-20 justify-self-center">
         Latest Coverage
       </h1>

@@ -30,7 +30,7 @@ const Navbar = () => {
           className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
           key={`events`}
         >
-          <Link href="/">
+          <Link href="/notfound">
             Events
             <div />
           </Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
           className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
           key={`membership`}
         >
-          <a href="/">Membership</a>
+          <a href="/notfound">Membership</a>
         </li>
         <li
           className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
@@ -70,7 +70,6 @@ const Navbar = () => {
         </li>
       </ul>
       <Hamburger />
-     
     </nav>
   );
 };

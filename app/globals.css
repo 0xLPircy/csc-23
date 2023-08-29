@@ -18,6 +18,18 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.aboutbg {
+  background-image: url(../assets/1.png);
+}
+
+.whatbg {
+  background-image: url(../assets/3.png);
+}
+
+.coveragebg {
+  background-image: url(../assets/3.png);
+}
+
 .landingNewsletter > *:not(:first-child):not(:nth-child(2)):not(:nth-child(3)) {
   display: none;
 }

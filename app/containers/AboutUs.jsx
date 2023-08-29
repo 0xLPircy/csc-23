@@ -4,7 +4,7 @@ import AboutLogo from "../../assets/aboutlogo.svg";
 
 const AboutUs = () => {
   return (
-    <div className="grid grid-flow-row justify-center items-center text-white ">
+    <div className="grid grid-flow-row justify-center items-center text-white aboutbg">
       <div className="justify-self-center">
         <h1 className="md:text-7xl text-5xl mt-20 mb-16">About Us</h1>
       </div>
