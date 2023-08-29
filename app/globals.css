@@ -194,3 +194,12 @@
     border-radius: 50%;
   }
 }
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.social-media .insta {
+  margin-right: 1rem;
+}
