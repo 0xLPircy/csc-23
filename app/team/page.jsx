@@ -49,6 +49,7 @@ import Darshan from "@/assets/team/people/exec/DarshanBaingani.jpg";
 import VishalRai from "@/assets/team/people/exec/VishalRai.jpg";
 import AnshPorwal from "@/assets/team/people/exec/AnshPorwal.jpg";
 import Kamya from "@/assets/team/people/exec/Kamya.jpg";
+import Pratyaksh from "@/assets/team/people/exec/PratyakshSinghal.jpg";
 
 import Image from "next/image";
 
@@ -223,24 +224,6 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={VishalRai}
-              name="Vishal Raj"
-              post="Deputy Secretary"
-              link1="https://www.linkedin.com/in/vishal-rai-770464222"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html" //Insta USerId is given Need Link Instead
-            />
-          </div>
-          <div>
-            <Person
-              img={Shivang}
-              name="Shivang Bansal"
-              post="Head of Technical Projects"
-              link1="https://www.linkedin.com/in/shivang-bansal-7a14661bb"
-              link2="https://instagram.com/bansalshivang.52?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
-            />
-          </div>
-          <div>
-            <Person
               img={ananyasharma}
               name="Ananya Sharma"
               post="Events Director"
@@ -287,12 +270,39 @@ const TeamPage = () => {
         </div>
       </div>
       <div className="pageSeparator" />
-      {/* Heads */}
+      {/* Core */}
       <div className="grid grid-flow-row justify-center items-center my-20">
         <h1 className="heads justify-self-center md:text-8xl text-7xl mb-6">
           HEADS
         </h1>
         <div className="gap-6 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-evenly w-[100vw]">
+        <div>
+            <Person
+              img={VishalRai}
+              name="Vishal Rai"
+              post="Deputy Secretary"
+              link1="https://www.linkedin.com/in/vishal-rai-770464222"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html" //Insta USerId is given Need Link Instead
+            />
+          </div>
+          <div>
+            <Person
+              img={Darshan}
+              name="Darshan Baingani"
+              post="Logistics Head"
+              link1="https://www.linkedin.com/in/darshan-baingani/"
+              link2="https://instagram.com/darshanj13"
+            />
+          </div>
+          <div>
+            <Person
+              img={Shivang}
+              name="Shivang Bansal"
+              post="Head of Technical Projects"
+              link1="https://www.linkedin.com/in/shivang-bansal-7a14661bb"
+              link2="https://instagram.com/bansalshivang.52?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
+            />
+          </div>
           <div>
             <Person
               img={palepu}
@@ -311,15 +321,7 @@ const TeamPage = () => {
               link2="https://instagram.com/dhruvbansal28?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
             />
           </div>
-          <div>
-            <Person
-              img={Darshan}
-              name="Darshan Baingani"
-              post="Logistics Head"
-              link1="https://www.linkedin.com/in/darshan-baingani/"
-              link2="https://instagram.com/darshanj13"
-            />
-          </div>
+          
           <div>
             <Person
               img={anurag}
@@ -403,11 +405,11 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={UmaShankar} //Wrong image is uploaded
+              img={Pratyaksh} 
               name="Pratyaksh Singhal"
               post="Joint Logistics Head"
-              link1="https://www.linkedin.com/in/pratyaksh-singhal-491799236"
-              link2="https://instagram.com/_pratyaksh01?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
+              link1="https://instagram.com/_pratyaksh01?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
+              link2="https://www.linkedin.com/in/pratyaksh-singhal-491799236"
             />
           </div>
           <div>
@@ -464,21 +466,13 @@ const TeamPage = () => {
               link2="https://in.linkedin.com/in/arnav-n-1297a421b"
             />
           </div>
-          {/* No details */}
-          <div>
-            <Person
-              img={UmaShankar}
-              name=""
-              post="Professor in Department of CSE"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
-            />
-          </div>
+          {/* ADD MORE HEADS */}
+          
         </div>
       </div>
       <div className="pageSeparator" />
       {/* Senior Coordinator */}
-      {/* SUMIT😅😅😅 */}
+      {/* SUMIT😅😅😅 ---> ok bro, Adarsh was here */}
       <div className="grid grid-flow-row justify-center items-center my-20">
         <h1 className="senior justify-self-center">Senior Co-ordinators</h1>
         <div className="gap-6 grid grid-cols-3 justify-evenly w-[100vw]">
@@ -526,16 +520,6 @@ const TeamPage = () => {
               post="Senior Coordinator of Research"
               link1="https://www.linkedin.com/in/ananya-p-23a641208"
               link2="https://instagram.com/ananyaaa_16?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
-            />
-          </div>
-          {/* No details */}
-          <div>
-            <Person
-              img={UmaShankar}
-              name="Atharv Pawar"
-              post="Senior Coordinator of Events"
-              link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
           </div>
           <div>
