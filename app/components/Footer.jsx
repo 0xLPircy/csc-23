@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "../../assets/cs.svg";
 import Image from "next/image";
+import linkedin from "@/assets/linkedin-icon.webp";
+import insta from "@/assets/insta.png";
 // import bg from "../../assets/footerBackground.svg";
 
 const Footer = () => {
@@ -15,12 +17,12 @@ const Footer = () => {
       <div className="md:mt-0 mt-9">
         <h1 className="text-4xl md:mb-6 mb-3 text-[#ff8000]">Contact Us</h1>
         <div className="text-xl mb-3">
-          <p>+91-9988013355</p>
-          <h2>Homedeep Singh Saggu</h2>
+          <p>+91-9304504962</p>
+          <h2>Ayushman Ranjan</h2>
         </div>
         <div className="text-xl mb-3">
-          <p>+91-9818622192</p>
-          <h2>Sayantan Mondal</h2>
+          <p>+91-8825224208</p>
+          <h2>Devanshu Kejriwal</h2>
         </div>
         <div className="text-xl">
           <p>cyberspacemuj@gmail.com</p>
@@ -41,10 +43,12 @@ const Footer = () => {
             Social Media
           </h1>
         </div>
-        <div className="">
-          insta
+        <div className="flex gap-12 justify-center mt-3">
           <a href="https://www.instagram.com/csc_muj/" rel="noreferrer">
-            {/* <AiOutlineInstagram color="white" size={30} /> */}
+            <Image src={insta} height={27} width={27} />{" "}
+          </a>
+          <a href="https://www.linkedin.com/in/taveesha-agarwal-4a159a1b9/">
+            <Image src={linkedin} height={24} width={24} />
           </a>
         </div>
       </div>
