@@ -3,12 +3,13 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import insta from "@/assets/insta.png";
+import Hamburger from "@/app/components/Hamburger.jsx";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="grid grid-flow-col grid-cols-4 fixed justify-center px-6 py-3 border-b-[1px] border-[#f9672d3c] text-white w-[100vw] nav">
+    <nav className="grid grid-flow-col grid-cols-2 md:grid-cols-4 fixed justify-center px-6 py-3 border-b-[1px] border-[#f9672d3c] text-white w-[100vw] nav">
       <div className="col-span-1">
         <Link href="/">
           {/* <img src={ } alt="logo" /> */}
@@ -68,95 +69,8 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-
-      {/* <div className="menu-wrap">
-        <input type="checkbox" className="toggler" />
-        <div className="hamburger">
-          <div></div>
-        </div>
-        <div className="menu">
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <Link href="/">
-                    Home
-                    <div />
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/">
-                    Events
-                    <div />
-                  </Link>
-                </li>
-                <li>
-                  <a href="https://www.w3schools.com/tags/tag_a.asp">
-                    Membership
-                  </a>
-                </li>
-                <li>
-                  <Link href="/newsletter">
-                    Newsletter
-                    <div />
-                  </Link>
-                </li>
-                <li>
-                  <a href="/team">
-                    Team
-                    <div />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/csc_muj/"
-                    target="_blank"
-                    rel="noreferrer"
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* <div className=""> */}
-      {/* {toggle && (
-                    <div>
-                        <ul>
-                            <li key={`mobile-home`}>
-                                <Link href="/" onClick={() => setToggle(false)}>
-                                    home
-                                </Link>
-                            </li>
-                            <li key={`mobile-events`}>
-                                <Link href="/" onClick={() => setToggle(false)}>
-                                    Events
-                                </Link>
-                            </li>
-                            <li key={`mobile-membership`}>
-                                < Link href="/" onClick={() => setToggle(false)}>
-                                    membership
-                                </Link>
-                            </li>
-                            <li key={`mobile-newsletter`}>
-                                <Link href="/" onClick={() => setToggle(false)}>
-                                    newsletter
-                                </Link>
-                            </li>
-                            <li key={`mobile-team`}>
-                                <Link href="/" onClick={() => setToggle(false)}>
-                                    team
-                                </Link>
-                            </li>
-                            <li key={`mobile-insta`}>
-                                <Link href="/">
-                                    insta
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-                )} */}
-      {/* </div> */}
+      <Hamburger />
+     
     </nav>
   );
 };
