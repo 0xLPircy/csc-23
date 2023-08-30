@@ -17,8 +17,7 @@ const Hamburger = () => {
         <div className="bar"></div>
         <div className="bar"></div>
       </div>
-      <div className={`menu ${isOpen ? "open" : ""}`}>
-        <div className="ham">
+      <div className={`menu ${isOpen ? "show" : ""}`}>
         <ul>
           <li>
             <Link href="/" onClick={toggleMenu}>
@@ -26,12 +25,14 @@ const Hamburger = () => {
             </Link>
           </li>
           <li>
-            <Link href="/" onClick={toggleMenu}>
+            <Link href="/events" onClick={toggleMenu}>
               Events
             </Link>
           </li>
           <li>
-            <a href="/">Membership</a>
+            <a href="/membership" onClick={toggleMenu}>
+              Membership
+            </a>
           </li>
           <li>
             <Link href="/newsletter" onClick={toggleMenu}>
@@ -39,9 +40,9 @@ const Hamburger = () => {
             </Link>
           </li>
           <li>
-            <a href="/team" onClick={toggleMenu}>
+            <Link href="/team" onClick={toggleMenu}>
               Team
-            </a>
+            </Link>
           </li>
           <li>
             <a
@@ -54,7 +55,6 @@ const Hamburger = () => {
             </a>
           </li>
         </ul>
-        </div>
       </div>
     </div>
   );

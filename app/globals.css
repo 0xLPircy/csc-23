@@ -222,10 +222,6 @@
   display: none;
 }
 
-.menu {
-  display: none;
-}
-
 @media screen and (max-width: 620px) {
   .hamburger-menu {
     display: block;
@@ -263,39 +259,77 @@
   .open .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  .menu {
-    display: none;
+  .hamburger-menu {
+    position: relative;
   }
 
-  .open .ham {
+  .menu-icon {
     display: block;
+    cursor: pointer;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #ff8c32;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-7px, 6px);
+  }
+
+  .open .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-7px, -6px);
+  }
+
+  .menu {
     position: absolute;
     top: 100%;
-    right: 0;
-    background-color: #fff;
-    border-radius: 4px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    z-index: 1;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(79, 80, 90, 0.283);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: none;
+    transition: 0.3s;
   }
 
-  .menu .open ul {
+  .show {
+    display: block;
+  }
+
+  .menu ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
 
-  .menu .open ul li {
-    margin-bottom: 8px;
+  .menu li {
+    padding: 15px;
+  }
+  .menu li:hover {
+    box-shadow: 0 6px 24px 0 rgba(79, 80, 90, 0.283);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
   }
 
-  .menu .open ul li a {
-    color: #333;
+  .menu a {
     text-decoration: none;
-    transition: color 0.3s ease-in-out;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
   }
 
-  .menu .open ul li a:hover {
-    color: orange;
+  .menu a:hover {
+    color: #ff8c32;
   }
 }
