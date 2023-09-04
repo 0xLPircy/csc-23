@@ -14,15 +14,17 @@ const Footer = () => {
           <h1 className="pt-3">CYBER SPACE CLUB</h1>
         </div>
       </div>
-      <div className="md:mt-0 mt-9">
+      <div className="md:mt-0 mt-9 contact">
         <h1 className="text-4xl md:mb-6 mb-3 text-[#ff8000]">Contact Us</h1>
         <div className="text-xl mb-3">
-          <p><a href="tel:9304504962">+91-93045 04962</a></p>
-          <h2>Aayushman Ranjan</h2>
+          <p><a href="tel:8825224208">+91-88252 24208</a></p>
+          <h2>Devanshu Kejriwal</h2>
+          <h6>Vice Chairperson</h6>
         </div>
         <div className="text-xl mb-3">
           <p><a href="tel:9034953199">+91-90349 53199</a></p>
           <h2>Lovish Aneja</h2>
+          <h6>General Secretary</h6>
         </div>
         <div className="text-xl">
           <p><a href="mailto:cyber.space@muj.manipal.edu">cyber.space@muj.manipal.edu</a></p>
