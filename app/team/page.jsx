@@ -10,6 +10,7 @@ import h5 from "@/assets/team/core.svg";
 import h6 from "@/assets/team/deputyCore.svg";
 import UmaShankar from "@/assets/team/people/FacultyCoordinator/DrUmashankarRawat.jpg";
 import Rohit from "@/assets/team/people/FacultyCoordinator/DrRohitBhatnagar.jpg";
+import AmitKumarBairwa from "@/assets/team/people/FacultyCoordinator/AmitKumarBairwa.jpg";
 import Sanchit from "@/assets/team/people/DSW/SanchitAnand.jpg";
 import vansh from "@/assets/team/people/exec/vansh.jpeg";
 import palepu from "@/assets/team/people/exec/palepu.jpeg";
@@ -41,7 +42,6 @@ import AvniGoel from "@/assets/team/people/exec/AvniGoel.jpg";
 import Chitransh from "@/assets/team/people/exec/ChitranshSaxena.jpg";
 import Ayushman from "@/assets/team/people/exec/AayushmanRanjan.jpeg";
 import Lovish from "@/assets/team/people/exec/lovishaneja.jpeg";
-import Yatharth from "@/assets/team/people/exec/YatharthKhanna.jpg";
 import Shivang from "@/assets/team/people/exec/ShivangBansal.jpg";
 import Raunak from "@/assets/team/people/exec/Raunak.jpeg";
 import AdarshDevashish from "@/assets/team/people/exec/AdarshDevashish.jpg";
@@ -50,6 +50,21 @@ import VishalRai from "@/assets/team/people/exec/VishalRai.jpg";
 import AnshPorwal from "@/assets/team/people/exec/AnshPorwal.jpg";
 import Kamya from "@/assets/team/people/exec/Kamya.jpg";
 import Pratyaksh from "@/assets/team/people/exec/PratyakshSinghal.jpg";
+import AryanShah from "@/assets/team/people/exec/AryanShah.jpg";
+import AnandGhugare from "@/assets/team/people/exec/AnandGhugare.jpg";
+import HarshKamra from "@/assets/team/people/exec/HarshKamra.jpg";
+import DhruvRathee from "@/assets/team/people/exec/DhruvRathee.jpg";
+import SheryaGupta from "@/assets/team/people/exec/SheryaGupta.jpg";
+import JainilShah from "@/assets/team/people/exec/JainilShah.jpeg";
+import ParthSarrathi from "@/assets/team/people/exec/ParthSarrathi.jpg";
+import RanojitPalit from "@/assets/team/people/exec/RanojitPalit.jpg";
+import Kartikey from "@/assets/team/people/exec/Kartikey.jpg";
+import Sidharth from "@/assets/team/people/exec/Sidharth.jpg";
+import Sarthak from "@/assets/team/people/exec/Sarthak.jpg";
+
+
+
+
 
 import Image from "next/image";
 
@@ -131,6 +146,15 @@ const TeamPage = () => {
             link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
           />
         </div>
+        {/* <div className="md:col-span-3">
+          <Person
+            img={AmitKumarBairwa}
+            name="Dr. Amit Kumar Bairwa"
+            post="Professor in Department of CSE"
+            link1="https://www.linkedin.com/in/dr-amit-kumar-bairwa-460aaaa9/?originalSubdomain=in"
+            link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/Amit-Kumar-Bairwa.html"
+          />
+        </div> */}
       </div>
       <div className="pageSeparator" />
       {/* dsw */}
@@ -215,11 +239,11 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={Yatharth}
-              name="Yatharth Khanna"
+              img={Raunak}
+              name="Raunak Saxena"
               post="Managing Director"
-              link1="https://www.linkedin.com/in/yatharth-khanna-960ab224b"
-              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html" //Only one link is available
+              link1="https://www.linkedin.com/in/raunaksaxena193"
+              link2="https://instagram.com/raunak.saxena.50?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
             />
           </div>
           <div>
@@ -233,11 +257,11 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={Raunak}
-              name="Raunak Saxena"
+              img={VishalRai}
+              name="Vishal Rai"
               post="Human Resource Director"
-              link1="https://www.linkedin.com/in/raunaksaxena193"
-              link2="https://instagram.com/raunak.saxena.50?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
+              link1="https://www.linkedin.com/in/vishal-rai-770464222"
+              link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
             />
           </div>
           <div>
@@ -278,8 +302,8 @@ const TeamPage = () => {
         <div className="gap-6 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-evenly w-[100vw]">
         <div>
             <Person
-              img={VishalRai}
-              name="Vishal Rai"
+              img={AryanShah}
+              name="Aryan Shah"
               post="Deputy Secretary"
               link1="https://www.linkedin.com/in/vishal-rai-770464222"
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html" //Insta USerId is given Need Link Instead
@@ -387,6 +411,59 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
+              img={HarshKamra}
+              name="Joint Head of Graphics Designer" 
+              link1="https://www.linkedin.com/"
+              link2="https://github.com/"
+            />
+          </div>
+          <div>
+            <Person
+              img={JainilShah}
+              name="Jainil Shah"
+              post="Joint Head of Research"
+              link1="https://www.linkedin.com/"
+              link2="https://github.com/"
+            />
+          </div>
+          <div>
+            <Person
+              img={RanojitPalit}
+              name="Ranojit Palit"
+              post="Joint Head of Curations" 
+              link1="https://www.linkedin.com/"
+              link2="https://github.com/"
+            />
+          </div>
+          <div>
+            <Person
+              img={Kartikey}
+              name="Karitkey"
+              post="Community Manager" 
+              link1="https://www.linkedin.com/"
+              link2="https://github.com/"
+            />
+          </div>
+          <div>
+            <Person
+              img={Sarthak}
+              name="Sarthak"
+              post="Head of Finance Registration" 
+              link1="https://www.linkedin.com/"
+              link2="https://github.com/"
+            />
+          </div>
+          <div>
+            <Person
+              img={Sidharth}
+              name="Sidharth"
+              post="Community Manager" 
+              link1="https://www.linkedin.com/"
+              link2="https://github.com/"
+            />
+          </div>
+          <div>
+            <Person
               img={Anushka}
               name="Anushka Shreya"
               post="Joint Marketing Head"
@@ -483,6 +560,42 @@ const TeamPage = () => {
               post="Senior Coordinator of Web-Dev"
               link1="https://www.linkedin.com/in/er-sumit-kr/"
               link2="https://github.com/07sumit1002"
+            />
+          </div>
+          <div>
+            <Person
+              img={DhruvRathee}
+              name="Dhruv Rathee"
+              post="Senior Coordinator Events" 
+              link1="https://www.linkedin.com/"
+              link2="https://github.com/"
+            />
+          </div>
+          <div>
+            <Person
+              img={SheryaGupta}
+              name="Shreya Gupta"
+              post="Senior Coordinator Marekting" 
+              link1="https://www.linkedin.com/"
+              link2="https://github.com/"
+            />
+          </div>
+          <div>
+            <Person
+              img={ParthSarrathi}
+              name="Parth Sarrathi"
+              post="Senior Coordinator Logistics" 
+              link1="https://www.linkedin.com/"
+              link2="https://github.com/"
+            />
+          </div>
+          <div>
+            <Person
+              img={AnandGhugare}
+              name="Anand Ghugare"
+              post="Senior Coordinator Events"
+              link1="https://www.linkedin.com/"
+              link2="https://github.com/"
             />
           </div>
           <div>
