@@ -1,16 +1,16 @@
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import "./globals.css";
-import { Kodchasan } from "next/font/google";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
-const interFont = Inter({
+const MontserratFont = Montserrat({
   display: "swap",
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
   variable: "--font-sans",
 });
 
-export const interFontClass = interFont.variable;
+export const MontserratFontClass = MontserratFont.variable;
 
 // const kodchasan = Kodchasan({
 //   subsets: ["latin"],
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-[#000000]">
-        <main className={interFont.className}>
+        <main className={MontserratFont.className}>
           <Nav />
           {children}
           <Footer />

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import LogoGif from "../../assets/cscmuj.gif";
 import Image from "next/image";
 
@@ -15,16 +16,14 @@ const Header = () => {
         </div>
         <div className="justify-self-center">
           <h1 className="md:text-4xl font text-2xl">CYBER SPACE CLUB</h1>
-        </div>
-        <div className="md:text-4xl justify-self-center text-2xl">
-          <h1>Manipal University Jaipur</h1>
+          <h1 className="university">Manipal University Jaipur</h1>
         </div>
         <div className="grid grid-flow-col items-center justify-around my-6">
-          <a href="https://www.w3schools.com/tags/tag_a.asp">
+          <Link href="/previousevent">
             <button className="border-[#fe8d32] rounded-sm border-2 md:w-40 md:h-16 h-9 w-32 md:py-3 md:px-11 md:text-2xl text-sm px-6 py-1 md:mx-24 mx-6">
               Events
             </button>
-          </a>
+          </Link>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSc-14BOqnJc69J0BP7zSaLcetjyQ4r05oaAuEbYQQ5aNDOpOg/viewform?usp=sf_link"
             target="_blank"

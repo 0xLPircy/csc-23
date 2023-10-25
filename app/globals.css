@@ -3,9 +3,10 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Kodchasan&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap");
 
 * {
-  font-family: "Kodchasan", sans-serif;
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
 
@@ -62,6 +63,9 @@
   -webkit-text-fill-color: #000000;
   letter-spacing: 1px;
   font-family: Arial Black, Gadget, sans-serif;
+}
+.university {
+  font-size: xx-large;
 }
 
 @media (max-width: 620px) {

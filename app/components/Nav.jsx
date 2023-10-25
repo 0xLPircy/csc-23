@@ -30,7 +30,7 @@ const Navbar = () => {
           className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
           key={`events`}
         >
-          <Link href="/notfound">
+          <Link href="/previousevent">
             Events
             <div />
           </Link>
