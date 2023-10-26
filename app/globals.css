@@ -214,6 +214,14 @@
     border-radius: 50%;
   }
 }
+.team-handle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-handle .insta {
+  margin-right: 1rem;
+}
 /* Footer */
 .social-media {
   display: flex;
@@ -344,15 +352,15 @@
 /* Creted this class just for shadow box and a bit of hover effect */
 
 .self-newsletter {
-  
-  box-shadow: 10px 10px 20px 0px rgba(255, 241, 241, 0.459);
-  
-  transform: perspective(1000px) rotateY(10deg);
-  
+  border-color: #ff8c32;
+  box-shadow: 5px 5px 10px 0px #ff8c32;
+
+  transform: perspective(1000px) rotateY(5deg);
+
   transition: all 0.3s ease;
 }
 
 .self-newsletter:hover {
   transform: perspective(1000px) rotateY(0deg);
-  box-shadow: 10px 10px 20px 0px rgba(255, 241, 241, 0.685);
+  box-shadow: 8px 8px 16px 0px #ff8c32;
 }

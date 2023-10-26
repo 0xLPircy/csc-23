@@ -1,56 +1,20 @@
 [
   {
-    "title": "Dozor-Teleport, a Russian satellite was hacked",
+    "title": "Bug-Bounty",
     "date": "2023-07-19",
-    "description": "Dozor-Teleport, a Russian satellite communications provider used by the country's Ministry of Defense and security services, confirmed that hackers breached its systems.",
-    "link": "/notfound"
+    "description": "Bug Bounty programs have become a crucial component of cybersecurity in today's digital landscape. These initiatives are akin to reward systems extended by companies and websites to incentivize individuals to uncover and report vulnerabilities or \"bugs\" within their software or platforms. Specifically, they target weaknesses that could potentially compromise security.By actively engaging in bug bounty programs, participants contribute to enhancing the overall security and integrity of the concerned systems. In return for their vigilance and expertise, companies offer monetary compensation, and oftentimes, public recognition for their invaluable contributions. This not only bolsters the reputation of the individual, but also fosters a collaborative approach between the company and the wider cybersecurity community. Bug bounty programs ultimately serve as a win-win situation. Companies fortify their digital infrastructure, minimizing the risk of cyber threats, while contributors receive compensation for their efforts. This symbiotic relationship not only strengthens security measures but also encourages continuous improvement in the face of evolving cyber threats. As a result, bug bounty programs have gained widespread popularity, with many major companies adopting them as a fundamental part of their security strategy.",
+    "link": "https://en.wikipedia.org/wiki/Bug_bounty_program#:~:text=A%20bug%20bounty%20program%20is,to%20security%20exploits%20and%20vulnerabilities."
   },
   {
-    "title": "Newsletter 2",
+    "title": "Microsoft will pay Rs 12.5 lakh if you can find bugs in Bing AI",
     "date": "2023-07-26",
-    "description": "This is the second newsletter.",
-    "link": "https://example.com/newsletters/newsletter2"
+    "description": "Microsoft's recent move to initiate a global AI bug bounty program signifies a significant step towards bolstering the security of their Bing chatbot and AI integrations. This program invites security researchers from around the world to actively engage in uncovering vulnerabilities within these technologies. In exchange for their efforts, Microsoft has pledged substantial rewards, ranging from $2,000 to an impressive $15,000. Participants in this bug bounty program are encouraged to report their findings through the dedicated Microsoft Security Research Center portal. This platform serves as a centralized hub for researchers to submit their discoveries, streamlining the process and ensuring that all identified vulnerabilities are addressed promptly. The decision to implement this bug bounty program underscores Microsoft's commitment to fortifying the security of their AI-driven technologies. By enlisting the expertise of a global community of security researchers, they aim to identify and rectify potential vulnerabilities, ultimately enhancing the overall resilience of Bing's AI systems.This initiative not only fosters a collaborative approach to cybersecurity but also highlights the value that Microsoft places on the contributions of security researchers in safeguarding the digital ecosystem. With rewards reaching up to Rs 12.5 lakh, this program provides a substantial incentive for individuals to actively participate in the pursuit of a more secure online environment.",
+    "link": "https://english.jagran.com/technology/microsoft-is-paying-up-to-rs-12-lakh-if-you-find-a-bug-aipowered-bing-check-eligibility-requirements-and-more-10107008"
   },
   {
-    "title": "Newsletter 3",
-    "date": "2023-07-26",
-    "description": "This is the second newsletter.",
-    "link": "https://example.com/newsletters/newsletter2"
-  },
-  {
-    "title": "Newsletter 4",
-    "date": "2023-07-19",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate",
-    "link": "https://example.com/newsletters/newsletter1"
-  },
-  {
-    "title": "Newsletter 5",
-    "date": "2023-07-26",
-    "description": "This is the second newsletter.",
-    "link": "https://example.com/newsletters/newsletter2"
-  },
-  {
-    "title": "Newsletter 1",
-    "date": "2023-07-19",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate",
-    "link": "https://example.com/newsletters/newsletter1"
-  },
-  {
-    "title": "Newsletter 2",
-    "date": "2023-07-26",
-    "description": "This is the second newsletter.",
-    "link": "https://example.com/newsletters/newsletter2"
-  },
-  {
-    "title": "Newsletter 3",
-    "date": "2023-07-26",
-    "description": "This is the second newsletter.",
-    "link": "https://example.com/newsletters/newsletter2"
-  },
-  {
-    "title": "Newsletter 4",
-    "date": "2023-07-19",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate",
-    "link": "https://example.com/newsletters/newsletter1"
+    "title": "DHS announces bug bounty program to hunt down cyber vulnerabilities",
+    "date": "2023-08-16",
+    "description": "The Department of Homeland Security (DHS) has taken a proactive step in fortifying its cyber defenses by launching the \"Hack DHS\" bug bounty program. This initiative calls upon cybersecurity experts to actively seek out vulnerabilities within external systems. In recognition of their efforts, participants will be duly compensated for their findings. The \"Hack DHS\" bug bounty program signifies a forward-thinking approach to cybersecurity. By enlisting the expertise of external professionals, the DHS aims to identify and rectify potential vulnerabilities that could be exploited by malicious actors. This collaborative effort serves as a crucial component in safeguarding the agency's digital infrastructure against evolving cyber threats. The introduction of this bug bounty program underlines the DHS's commitment to staying at the forefront of cybersecurity measures. It demonstrates a willingness to engage with the wider cybersecurity community, recognizing the invaluable role that external experts play in strengthening the security posture of government agencies. Through this program, the DHS not only enhances its own cybersecurity resilience but also sets a commendable example for other organizations and government entities. By incentivizing the discovery and reporting of vulnerabilities, the DHS fosters a culture of collective responsibility in the fight against cyber threats.",
+    "link": "https://www.dhs.gov/news/2021/12/14/dhs-announces-hack-dhs-bug-bounty-program-identify-potential-cybersecurity"
   }
 ]

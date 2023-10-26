@@ -120,15 +120,15 @@ const TeamPage = () => {
           className="col-span-1 md:block hidden"
         />{" "}
         <Image
-          height={600}
-          width={300}
-          src={h21}
-          className="sm:col-span-2 my-6 justify-self-center md:hidden sm:block"
+          height={300}
+          width={150}
+          src={h4}
+          className="sm:col-span-3 my-6 justify-self-center md:hidden sm:block"
         />
         {/* <h1 className="md:hidden sm:block fc place-content-center">
           FACULTY COORDINATORS
         </h1> */}
-        <div className="justify-self-center md:col-span-3">
+        <div className="justify-self-center md:col-span-2">
           <Person
             img={Rohit}
             name="Dr. Roheet Bhatnagar"
@@ -137,7 +137,7 @@ const TeamPage = () => {
             link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/roheet-bhatnagar.html"
           />
         </div>
-        <div className="md:col-span-3">
+        <div className="md:col-span-2">
           <Person
             img={UmaShankar}
             name="Dr. Umashankar Rawat"
@@ -146,7 +146,7 @@ const TeamPage = () => {
             link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html"
           />
         </div>
-        {/* <div className="md:col-span-3">
+        <div className="md:col-span-2">
           <Person
             img={AmitKumarBairwa}
             name="Dr. Amit Kumar Bairwa"
@@ -154,7 +154,7 @@ const TeamPage = () => {
             link1="https://www.linkedin.com/in/dr-amit-kumar-bairwa-460aaaa9/?originalSubdomain=in"
             link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/Amit-Kumar-Bairwa.html"
           />
-        </div> */}
+        </div>
       </div>
       <div className="pageSeparator" />
       {/* dsw */}
@@ -412,7 +412,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={HarshKamra}
-              name="Joint Head of Graphics Designer" 
+              name="Harsh Kamra" 
+              post="Joint Head of Graphic Design"
               link1="https://www.linkedin.com/"
               link2="https://github.com/"
             />
@@ -438,7 +439,7 @@ const TeamPage = () => {
           <div>
             <Person
               img={Kartikey}
-              name="Karitkey"
+              name="Kumar Kartikay"
               post="Community Manager" 
               link1="https://www.linkedin.com/"
               link2="https://github.com/"
@@ -456,8 +457,8 @@ const TeamPage = () => {
           <div>
             <Person
               img={Sidharth}
-              name="Sidharth"
-              post="Community Manager" 
+              name="Siddharth Pahwa"
+              post="Head of Coorporate Affairs" 
               link1="https://www.linkedin.com/"
               link2="https://github.com/"
             />
@@ -523,6 +524,15 @@ const TeamPage = () => {
               post="Joint Graphics Head"
               link1="https://www.linkedin.com/in/umashankar-rawat-41730a48/" //Only Insta userID is provided
               link2="https://www.linkedin.com/in/akanksha-sinha-a9638a268"
+            />
+          </div>
+          <div>
+            <Person
+              img={HarshitRawat}
+              name="Harshit Rawat"
+              post="Joint Head of Events"
+              link1="https://www.linkedin.com/in/harshit-rawat-6730571b3?trk=contact-info"
+              link2="https://instagram.com/harshitt_rawat?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
             />
           </div>
           <div>
@@ -633,15 +643,6 @@ const TeamPage = () => {
               post="Senior Coordinator of Research"
               link1="https://www.linkedin.com/in/ananya-p-23a641208"
               link2="https://instagram.com/ananyaaa_16?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
-            />
-          </div>
-          <div>
-            <Person
-              img={HarshitRawat}
-              name="Harshit Rawat"
-              post="Senior Coordinator of Events"
-              link1="https://www.linkedin.com/in/harshit-rawat-6730571b3?trk=contact-info"
-              link2="https://instagram.com/harshitt_rawat?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
             />
           </div>
           <div>

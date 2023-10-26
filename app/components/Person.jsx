@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import insta from "@/assets/insta.png";
+import linkedin from "@/assets/linkedin.png";
 
 const Person = ({ img, name, post, link1, link2 }) => {
   return (
@@ -64,9 +66,13 @@ const Person = ({ img, name, post, link1, link2 }) => {
       >
         {post}
       </h3>
-      <div className="justify-self-center">
-        <Link href={link1}>Link1</Link>
-        <Link href={link2}>Link2</Link>
+      <div className="team-handle">
+      <div className="insta">
+        <Image src={insta} height={24} width={24} />
+      </div>
+      <div className="linkedin">
+        <Image src={linkedin} height={24} width={24} />
+      </div>
       </div>
     </div>
   );

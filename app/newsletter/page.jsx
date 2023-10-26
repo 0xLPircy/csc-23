@@ -28,7 +28,7 @@ const NewsletterPage = () => {
         id="main"
         className="text-[#f3f3f3] grid justify-center items-center"
       >
-        <h1 className="mt-32 justify-self-center text-5xl text-[#ff8c32]">Newsletters</h1>
+        <h1 className="mt-32 mb-10 justify-self-center text-6xl text-[#ff8c32]">Newsletter</h1>
         <div className="nlDisplay">
           {newsletters.map((newsletter) => (
             <div
