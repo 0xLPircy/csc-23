@@ -8,7 +8,7 @@ const LatestCoverage = () => {
       </h1>
       <div className="justify-self-center h-fit w-fit mb-20">
         <iframe
-          className="md:h-[300px] md:w-[600px] h-[250px] w-[500px]"
+          className="coverage-video"
           width="100%"
           height="100%"
           src="https://www.youtube.com/embed/9D9CZKHncK0"
