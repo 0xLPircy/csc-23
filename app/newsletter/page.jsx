@@ -26,7 +26,7 @@ const NewsletterPage = () => {
     <>
       <div
         id="main"
-        className="text-[#f3f3f3] grid justify-center items-center"
+        className="text-[#f3f3f3] grid justify-center items-center newsbg"
       >
         <h1 className="mt-32 mb-5 justify-self-center text-6xl text-[#ff8c32]">Newsletter</h1>
         <div className="pageSeparator" />

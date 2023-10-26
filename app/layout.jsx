@@ -1,7 +1,7 @@
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import "./globals.css";
-import { Montserrat } from "next/font/google";
+import { Montserrat } from '@next/font/google';
 
 const MontserratFont = Montserrat({
   display: "swap",
@@ -10,7 +10,7 @@ const MontserratFont = Montserrat({
   variable: "--font-sans",
 });
 
-export const MontserratFontClass = MontserratFont.variable;
+
 
 // const kodchasan = Kodchasan({
 //   subsets: ["latin"],
@@ -35,3 +35,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+export const MontserratFontClass = MontserratFont.variable;

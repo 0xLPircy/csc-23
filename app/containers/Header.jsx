@@ -25,8 +25,8 @@ const Header = () => {
             </button>
           </Link>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSc-14BOqnJc69J0BP7zSaLcetjyQ4r05oaAuEbYQQ5aNDOpOg/viewform?usp=sf_link"
-            target="_blank"
+            href="/notfound"
+            
             rel="noreferrer"
           >
             <button className=" bg-[linear-gradient(152deg,_#dd7009,_#f8be19)] rounded-sm md:w-40 md:h-16 h-9 w-32 md:py-3 md:px-11 md:text-2xl text-sm px-6 py-1 md:mx-24 mx-6">

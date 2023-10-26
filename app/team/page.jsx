@@ -458,7 +458,7 @@ const TeamPage = () => {
             <Person
               img={Sidharth}
               name="Siddharth Pahwa"
-              post="Head of Coorporate Affairs" 
+              post="Head of Corporate Affairs" 
               link1="https://www.linkedin.com/"
               link2="https://github.com/"
             />
