@@ -61,6 +61,7 @@ import RanojitPalit from "@/assets/team/people/exec/RanojitPalit.jpg";
 import Kartikey from "@/assets/team/people/exec/Kartikey.jpg";
 import Sidharth from "@/assets/team/people/exec/Sidharth.jpg";
 import Sarthak from "@/assets/team/people/exec/Sarthak.jpg";
+import AnantSharma from "@/assets/team/people/exec/AnantSharma.jpg";
 
 
 
@@ -661,6 +662,15 @@ const TeamPage = () => {
               post="Senior Coordinator of Technical"
               link1="www.linkedin.com/in/chitranshatlkdin"
               link2="https://www.instagram.com/_.chitransh_saxena._/"
+            />
+          </div>
+          <div>
+            <Person
+              img={AnantSharma}
+              name="Anant Sharma"
+              post="Senior Coordinator of Technical"
+              link1="www.linkedin.com/in/"
+              link2="https://www.instagram.com/"
             />
           </div>
         </div>
