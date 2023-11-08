@@ -312,6 +312,15 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
+              img={Kartikey}
+              name="Kumar Kartikay"
+              post="Community Manager" 
+              link1="https://www.linkedin.com/"
+              link2="https://github.com/"
+            />
+          </div>
+          <div>
+            <Person
               img={Darshan}
               name="Darshan Baingani"
               post="Logistics Head"
@@ -434,15 +443,6 @@ const TeamPage = () => {
               img={RanojitPalit}
               name="Ranojit Palit"
               post="Joint Head of Curations" 
-              link1="https://www.linkedin.com/"
-              link2="https://github.com/"
-            />
-          </div>
-          <div>
-            <Person
-              img={Kartikey}
-              name="Kumar Kartikay"
-              post="Community Manager" 
               link1="https://www.linkedin.com/"
               link2="https://github.com/"
             />
