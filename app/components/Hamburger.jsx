@@ -25,7 +25,7 @@ const Hamburger = () => {
             </Link>
           </li>
           <li>
-            <Link href="/events" onClick={toggleMenu}>
+            <Link href="/previousevent" onClick={toggleMenu}>
               Events
             </Link>
           </li>
