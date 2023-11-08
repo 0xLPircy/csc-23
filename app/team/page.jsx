@@ -24,7 +24,7 @@ import ananyasharma from "@/assets/team/people/exec/ananya.jpeg";
 import Ritika from "@/assets/team/people/exec/RitikaMalhotra.jpeg";
 import ShivendraGoenka from "@/assets/team/people/exec/shivendragoenka.jpeg";
 import AditiJain from "@/assets/team/people/exec/Aditijain.jpg";
-import HarshitVarma from "@/assets/team/people/exec/HarshitVarma.jpeg";
+// import HarshitVarma from "@/assets/team/people/exec/HarshitVarma.jpeg";
 import Anushka from "@/assets/team/people/exec/AnushkaShreya.jpg";
 import SRD from "@/assets/team/people/exec/SHIVAMRAJDUBEY.jpeg";
 import Lakshya from "@/assets/team/people/exec/LakshyaPawar.jpg";
@@ -401,15 +401,7 @@ const TeamPage = () => {
               link2="https://www.linkedin.com/in/aditi-jain-09ab53244"
             />
           </div>
-          <div>
-            <Person
-              img={HarshitVarma}
-              name="Harshit Varma"
-              post="Joint Technical Head"
-              link1="https://instagram.com/harshuvarma_737?igshid=OGQ5ZDc2ODk2ZA=="
-              link2="https://www.linkedin.com/in/harshit-varma-721920203"
-            />
-          </div>
+          
           <div>
             <Person
               img={HarshKamra}
@@ -426,6 +418,15 @@ const TeamPage = () => {
               post="Joint Head of Research"
               link1="https://www.linkedin.com/"
               link2="https://github.com/"
+            />
+          </div>
+          <div>
+            <Person
+              img={Chitransh}
+              name="Chitransh Saxena"
+              post="Joint Head Technical"
+              link1="www.linkedin.com/in/chitranshatlkdin"
+              link2="https://www.instagram.com/_.chitransh_saxena._/"
             />
           </div>
           <div>
@@ -655,15 +656,7 @@ const TeamPage = () => {
               link2="https://instagram.com/goelverse_avni?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
             />
           </div>
-          <div>
-            <Person
-              img={Chitransh}
-              name="Chitransh Saxena"
-              post="Senior Coordinator of Technical"
-              link1="www.linkedin.com/in/chitranshatlkdin"
-              link2="https://www.instagram.com/_.chitransh_saxena._/"
-            />
-          </div>
+          
           <div>
             <Person
               img={AnantSharma}

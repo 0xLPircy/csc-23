@@ -15,8 +15,8 @@ const Header = () => {
           <Image src={LogoGif} height={420} width={420} />
         </div>
         <div className="justify-self-center">
-          <h1 className="md:text-4xl font text-2xl">CYBER SPACE CLUB</h1>
-          <h1 className="university">Manipal University Jaipur</h1>
+          <h1 className="md:text-4xl font text-center text-3xl">CYBER SPACE CLUB</h1>
+          <h1 className="md:text-2xl font text-center text-xl">Manipal University Jaipur</h1>
         </div>
         <div className="grid grid-flow-col items-center justify-around my-6">
           <Link href="/previousevent">
