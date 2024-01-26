@@ -16,7 +16,7 @@ import vansh from "@/assets/team/people/exec/vansh.jpeg";
 import palepu from "@/assets/team/people/exec/palepu.jpeg";
 import dhruv from "@/assets/team/people/exec/dhruv.jpeg";
 import anurag from "@/assets/team/people/exec/anurag.jpeg";
-import salil from "@/assets/team/people/exec/salil.jpeg";
+import salil from "@/assets/team/people/exec/salil.jpg";
 import taveesha from "@/assets/team/people/exec/taveesha.jpeg";
 import devanshu from "@/assets/team/people/exec/DevanshuKejriwal.JPG";
 import anmol from "@/assets/team/people/exec/AnmolGill.jpg";
