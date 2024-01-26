@@ -492,15 +492,7 @@ const TeamPage = () => {
               link2="https://www.linkedin.com/in/pratyaksh-singhal-491799236"
             />
           </div>
-          <div>
-            <Person
-              img={Lakshya}
-              name="Lakshay Pawar"
-              post="Joint Logistics Head"
-              link1="https://instagram.com/_.laksh_07?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
-              link2="https://www.linkedin.com/in/lakshya-pawar-165b81265"
-            />
-          </div>
+          
           <div>
             <Person
               img={Navneet}
@@ -647,15 +639,7 @@ const TeamPage = () => {
               link2="https://instagram.com/ananyaaa_16?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
             />
           </div>
-          <div>
-            <Person
-              img={AvniGoel}
-              name="Avni Goel"
-              post="Senior Coordinator of Graphic Design"
-              link1="https://www.linkedin.com/in/avni-goel-57041816a"
-              link2="https://instagram.com/goelverse_avni?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
-            />
-          </div>
+          
           
           <div>
             <Person
