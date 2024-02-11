@@ -30,16 +30,6 @@ const Hamburger = () => {
             </Link>
           </li>
           <li>
-            <a href="/membership" onClick={toggleMenu}>
-              Membership
-            </a>
-          </li>
-          <li>
-            <Link href="/newsletter" onClick={toggleMenu}>
-              Newsletter
-            </Link>
-          </li>
-          <li>
             <Link href="/team" onClick={toggleMenu}>
               Team
             </Link>

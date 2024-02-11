@@ -103,6 +103,7 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+
 @media (min-width: 620px) {
   .nlDisplay {
     display: grid;

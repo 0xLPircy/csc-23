@@ -7,24 +7,7 @@ import InstaPosts from "./containers/InstaPosts";
 import LatestCoverage from "./containers/LatestCoverage";
 import { useEffect, useState } from "react";
 
-export default function Home() {
-  const [newsletters, setNewsletters] = useState([]);
-  useEffect(() => {
-    // Fetch the JSON data when the component mounts
-    fetchNewsletters();
-  }, []);
-
-  const fetchNewsletters = async () => {
-    try {
-      const response = await fetch("./newsletters.json");
-      // console.log(response);
-      const data = await response.json();
-      // console.log(data);
-      setNewsletters(data);
-    } catch (error) {
-      console.error("Error fetching JSON:", error);
-    }
-  };
+export default function Home() {  
   return (
     <>
       <div className="pt-12">

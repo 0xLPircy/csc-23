@@ -35,21 +35,7 @@ const Navbar = () => {
             <div />
           </Link>
         </li>
-        <li
-          className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
-          key={`membership`}
-        >
-          <a href="/notfound">Membership</a>
-        </li>
-        <li
-          className="px-[12px] hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
-          key={`newsletter`}
-        >
-          <Link href="/newsletter">
-            Newsletter
-            <div />
-          </Link>
-        </li>
+        
         <li
           className="px-[12px] mr-3 hover:text-[#fe8d32] hover:border-b border-[#fe8d32] rounded-sm"
           key={`events`}
