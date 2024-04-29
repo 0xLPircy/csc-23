@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import LogoGif from "../../assets/cscmuj.gif";
+import LogoGif from "../../assets/novus-img.png";
 import Image from "next/image";
 
 const Header = () => {
