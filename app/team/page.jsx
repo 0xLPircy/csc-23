@@ -310,15 +310,7 @@ const TeamPage = () => {
               link2="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list/uma-shankar-rawat.html" //Insta USerId is given Need Link Instead
             />
           </div>
-          <div>
-            <Person
-              img={Kartikey}
-              name="Kumar Kartikay"
-              post="Community Manager" 
-              link1="https://www.linkedin.com/"
-              link2="https://github.com/"
-            />
-          </div>
+          
           <div>
             <Person
               img={Darshan}
